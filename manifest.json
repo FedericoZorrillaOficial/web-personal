@@ -1,0 +1,15 @@
+{
+  "name": "Federico Zorrilla Oficial",
+  "short_name": "FedericoZO",
+  "start_url": "http://federicozorrillaoficial.com",
+  "display": "standalone",
+  "background_color": "#3A3E4A",
+  "theme_color": "#3A3E4A",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
