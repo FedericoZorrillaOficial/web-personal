@@ -1,8 +1,48 @@
-
-<<<<<<< HEAD
- 
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
+  /* vercion 9 ----------*/
+  /*ancla: general 00001-*/
+  
+  /*>>>>>>>>>>>>>>>>>>>>>>>
+  >>Estilos generales >>>>>
+  >>se aplican estilos >>>>
+  >>consernientes a >>>>>>>
+  >>toda la paágina >>>>>>>
+  >>y lugares variados >>>>
+  >>>>>>>>>>>>>>>>>>>>>>>*/
+  
+  
+  :root{
+    
+    
+    /*______________________
+      variables de la 
+      seccion general     */
+    
+    
+    --fondo: linear-gradient(
+      to bottom, 
+      #002 90%, 
+      #000 100%
+    );
+    
+    --colorLicks: red;
+    
+    
+    /*______________________
+      variables de la 
+      portada             */
+    
+    
+    --fondoPortada: linear-gradient(
+      to top, 
+      rgba(0, 100, 155, .6), 
+      rgba(0, 20, 45, .6)
+    ), url('../img/fondo.png');
+    
+    
+  }
+  
+  
+  
   *{
     
     box-sizing:border-box;
@@ -14,12 +54,7 @@
   
   body {
     
-<<<<<<< HEAD
-    background: linear-gradient(
-      to bottom, 
-      #002 90%, 
-      #000 100%
-    );
+    background: var(--fondo);
     
   }
   
@@ -27,33 +62,41 @@
   a{
     
     text-decoration:none;
+    color: var(--colorLicks);
+    
   }
   
   
   .seoTrack{
     
     display:none;
-=======
-    background: linear-gradient(to bottom, #002 90%, #000 100%);
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
+    background: var(--fondo);
     
   }
   
   
   
   
-  /*Portada >>>>>>>>>>>>>>>*/
+  /*______________________
+  fin de seccion general
+  _______________________*/
+  /*ancla: portada 00002-*/
+  
+  /*>>>>>>>>>>>>>>>>>>>>>>>
+  >>Estilos de portada >>>>
+  >>se aplican estilos >>>>
+  >>consernientes a >>>>>>>
+  >>solo la portada >>>>>>>
+  >>>>>>>>>>>header>>>>>>>>
+  >>>>>>>>>>>>>>>>>>>>>>>*/
+  
+  
+  
   header{
     
-<<<<<<< HEAD
-    background-image: linear-gradient(
-      to top, 
-      rgba(0, 100, 155, .6), 
-      rgba(0, 20, 45, .6)
-    ), url('../img/fondo.png');
-=======
+    background-image: var(--fondoPortada);
+    
     background-image: linear-gradient(to top, rgba(0, 100, 155, .6), rgba(0, 20, 45, .6)), url('../img/fondo.png');
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
     background-repeat  : no-repeat, repeat;
     background-size: cover;
@@ -71,22 +114,20 @@
     color:#fff;
     border-radius:20px;
     
-<<<<<<< HEAD
     margin:15px 0px 40px;
-=======
     margin-top:15px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
   
   
   
-  /*Menu >>>>>>>>>>>>>>>>*/
-<<<<<<< HEAD
+  /*______________________
+  estilos del menu
+  subAncla: menu 00002.1
+  _______________________*/
   
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
+  
   .menu{
     
     position: fixed;
@@ -94,63 +135,30 @@
     left: 0;
     width: 100%;
     
-<<<<<<< HEAD
-    padding: 22px 5px;
+    padding: 20px 5px;
     z-index: 100;
     display:flex;
     flex-direction:column;
     align-items:flex-start;
-=======
-    padding: 25px 10px;
+    user-select: none;
     z-index: 1000;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
   
   
-<<<<<<< HEAD
   .BotonInMenu{
-=======
-  .BoxInMenu{
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
     background: rgba(0, 20, 45, 0.2);
-    backdrop-filter: blur(6px); 
-    -webkit-backdrop-filter: blur(6px);
     
-    display: inline-block;
-<<<<<<< HEAD
     padding: 8px 20px;
     border-radius: 20px 8px 8px;
-=======
-    padding: 8px 16px;
-    border-radius: 8px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
-    border:1px solid rgba(200, 200, 250, 0.4);
-    border-top:2px solid rgba(200, 200, 250, 0.5);
-    border-bottom:2px solid rgba(200, 200, 250, 0.5);
+
+    border:1px solid rgba(200, 200, 250, 0.3);
+    border-top:2px solid rgba(200, 200, 250, 0.4);
+    border-bottom:2px solid rgba(200, 200, 250, 0.4);
     
     box-shadow:6px 10px 2px rgba(20, 20, 25, 0.3);
-<<<<<<< HEAD
-    
-    user-select: none;
-=======
-   
-  }
-  
-  
-  
-  .BoxInMenu p{
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
-    
-    margin: 0;
-    font-size: 12px;
-    font-weight: bold;
-    color: #ffffff;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-<<<<<<< HEAD
    
   }
   
@@ -158,18 +166,11 @@
   .BotonInMenu:hover {
     
     box-shadow:3px 5px 1px rgba(20, 20, 25, 0.3);
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
   
-  
-<<<<<<< HEAD
   .BotonInMenu span{
-=======
-  .BoxInMenu span{
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
     color: #00aaff;
     font-size: 16px;
@@ -180,7 +181,10 @@
   
   
   
-<<<<<<< HEAD
+  /*______________________
+  estilos dentro del menu
+  subAncla: menu 00002.2
+  _______________________*/
   
   
   .Menu_itemsBox{
@@ -200,7 +204,7 @@
     
     width:260px;
     min-height:550px;
-    margin-top:20px;
+    margin-top:15px;
     margin-left:15px;
     
     box-shadow: 10px 10px 5px rgba(20, 20, 25, 0.2), inset 0px 0px 15px rgba(255, 255, 255, 0.3);
@@ -210,18 +214,71 @@
   }
   
   
-  
-  .starBox{
+  .Menu_boxTitle{
     
-    position:absolute;
+    background: linear-gradient(
+      to top, 
+      rgba(0, 100, 155, 1), 
+      rgba(0, 20, 45, 1)
+    );
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    
     padding:10px;
-    z-index:104;
-    top:4px;
+    padding-top:20px;
+    padding-bottom:13px;
+    
+    overflow:hidden;
+    position:relative;
+    z-index:103;
+    
+    box-shadow:0px 4px 7px rgba(0, 200, 255, 0.8), inset 0px -2px 2px rgba(200, 200, 255, 0.2);
+    text-shadow: -0.3px -0.3px 0px #fff, 0.2px 0.2px 0px rgba(0, 200, 255, 0.8);
+    
     
   }
   
   
-  .starPoint{
+  .Menu_TitleSubBox{
+    
+    display:flex;
+    align-items:center;
+    font-size:14px;
+    
+  }
+  
+  
+  .Menu_TitleSubBox .logo{
+    
+    margin:5px;
+    margin-top:2px;
+    width:25px;
+    height:25px;
+    background-image: url('../img/logo.png');
+    background-repeat  : no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius:100%;
+    border:1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 2px rgba(20, 20, 25, 1);
+    
+  }
+  
+  
+  .moonBox{
+    
+    position:absolute;
+    padding:10px;
+    z-index:104;
+    top:6px;
+    
+  }
+  
+  
+  .moonPoint{
     
     background: linear-gradient(
       to bottom, 
@@ -237,9 +294,22 @@
   }
   
   
+  .BotonSalirMenu{
+    
+    color:red;
+    margin:0;
+    margin-right:7px;
+    font-size:35px;
+    border:none;
+    box-shadow: 0 0 0 rgba(20, 20, 25, 0);
+    background:transparent;
+    font-weight:900;
+    text-shadow: 2px 0px 0px rgba(140, 145, 150, 0.5);
+    
+  }
   
   
-  .menu_contenOnda{
+  .menu_olas{
     
     display:flex;
     position:absolute;
@@ -247,7 +317,7 @@
     z-index:101;
     width:1300px;
     
-    animation: moverOndas 25s infinite alternate;
+    animation: moverOlas 20s infinite alternate;
     
   }
   
@@ -270,8 +340,7 @@
   
   
   
-  
-  @keyframes moverOndas {
+  @keyframes moverOlas {
     
     0% { 
       
@@ -296,88 +365,13 @@
   }
   
   
-  
-  .Menu_boxTitle{
-    
-    background: linear-gradient(
-      to top, 
-      rgba(0, 100, 155, 1), 
-      rgba(0, 20, 45, 1)
-    );
-    
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:25px;
-    
-    padding:10px;
-    padding-top:20px;
-    padding-bottom:15px;
-    
-    overflow:hidden;
-    position:relative;
-    z-index:103;
-    
-    box-shadow:0px 4px 7px rgba(0, 200, 255, 0.8), inset 0px -2px 2px rgba(200, 200, 255, 0.2);
-    text-shadow: -0.3px -0.3px 0px #fff, 0.2px 0.2px 0px rgba(0, 200, 255, 0.8);
-    
-    
-  }
-  
- 
-  
-  
-  
-  .Menu_TitleSubBox{
-    
-    display:flex;
-    align-items:center;
-    
-  }
-  
-  
-  .Menu_TitleSubBox .logo{
-    
-    margin:5px;
-    margin-top:2px;
-    width:25px;
-    height:25px;
-    background-image: url('../img/logo.png');
-    background-repeat  : no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius:100%;
-    border:1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 2px 2px 2px rgba(20, 20, 25, 1);
-    
-  }
-  
-  
-  .Menu_TitleSubBox button{
-    
-    color:red;
-    margin-right:7px;
-    font-size:45px;
-    padding:3px;
-    padding-right:7px;
-    padding-left:10px;
-    border:none;
-    box-shadow: 0 0 0 rgba(20, 20, 25, 0);
-    background:transparent;
-    font-weight:900;
-    text-shadow: 2px 0px 0px rgba(140, 145, 150, 0.5);
-    
-  }
-  
-  
-  
-  
-  
   .Menu_itemsBox ul{
     
     padding-top:15px;
     padding-left:30px;
     margin:5px;
+    position:relative;
+    z-index:1003;
     
   }
   
@@ -386,7 +380,6 @@
     
     margin:5px;
     margin-bottom:15px;
-    box-shadow:6px 7px 3px #000;
     width:170px;
     border-bottom:1px solid rgba(0, 150, 205, 0.1);
     border-radius:10px 20px 20px 5px;
@@ -398,18 +391,11 @@
   }
   
   
-  .Menu_itemsBox ul li:hover{
-    
-    background: linear-gradient(to bottom, rgba(0, 130, 155, 1), rgba(0, 100, 120, 0.8));
-    
-  }
-  
-  
   @keyframes Flotar {
     
     0% { 
       
-      box-shadow:0px 3px 2px #000;
+      box-shadow:0px 4px 3px #000;
       
     }
     
@@ -422,9 +408,14 @@
   }
   
   
+  .Menu_itemsBox ul li:hover{
+    
+    background: linear-gradient(to bottom, rgba(0, 130, 155, 1), rgba(0, 100, 120, 0.8));
+    
+  }
+  
   
   .Menu_itemsBox ul li button{
-    
     
     color:rgba(0, 150, 205, 0.6);
     text-align:left;
@@ -437,8 +428,6 @@
     border:none;
     
   }
-  
-  
   
   
   .menu_buttonBox{
@@ -456,7 +445,6 @@
   }
   
   
-  
   .menu_buttonBox button{
     
     position:relative;
@@ -469,28 +457,27 @@
     
     font-weight:900;
     color:rgba(0, 200, 255, 1);
+    z-index:1002;
     
   }
   
   
-  /*------
-   
   .aros{
     
     border:1px solid rgba(100, 100, 155, 0.3);
-    background:red;
     width:20px;
     height:20px;
     border-radius:100%;
     position:absolute;
-    z-index:100;
     box-shadow:inset 0 0 5px rgba(100, 100, 155, 0.3);
+    z-index:1001;
     
   }
   
   .aro2{
-    animation: extenderAro 15s ease-in-out infinite;
-   
+    
+    animation: extenderAro 17s ease-in-out infinite;
+    
   }
   
   
@@ -505,7 +492,7 @@
     
     0% { 
       
-      transform: scale(1);
+      transform: scale(0);
       opacity:1;
       
     }
@@ -526,8 +513,6 @@
     
   }
   
-  ----*/
-  
   
   .menu_oculto{
     
@@ -538,10 +523,11 @@
   
   
   
+  /*______________________
+    estilos del foto portada
+    subAncla: perfil 00002.3
+  _______________________*/
   
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
-  /*imagen de perfil >>>>*/
   
   .FtPerfilBox{
     
@@ -551,12 +537,7 @@
       rgba(0, 20, 45, 0.2)
     );
     
-<<<<<<< HEAD
     transform:translateY(50px);
-=======
-    transform:translateY(70px);
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
-    
     border-radius:100%;
     border:2px solid #0bf;
     
@@ -581,14 +562,11 @@
     width:100%;
     height:100%;
     border-radius:100%;
+    
   }
   
   
-  
-  
-  /*<<contenedor en portada>>*/
   .contentInPortada{
-    
     
     background: rgba(100, 100, 100, 0.3);
     backdrop-filter: blur(10px);
@@ -599,11 +577,7 @@
     transform:translateY(-25px);
     
     padding-top:90px;
-<<<<<<< HEAD
     padding-bottom:30px;
-=======
-    padding-bottom:20px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
     max-width:350px;
     
@@ -619,7 +593,6 @@
   }
   
   
-  
   .PerfilBoxTitle{
     
     text-align:center;
@@ -632,12 +605,14 @@
   
   
   .PerfilBoxTitle h1 {
-  font-size: 33px;
-  font-weight: 900;
-  color: #ffffff;
-  margin-left: 30px;
-  margin-right: 30px;
-  font-family: 'Georgia', serif;
+    
+    font-size: 33px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Georgia', serif;
+    
   }
   
   
@@ -650,7 +625,8 @@
     margin-bottom:10px;
   
   }
-
+  
+  
   .PerfilBoxTitle h3 {
     
     font-size: 17px;
@@ -673,22 +649,15 @@
   }
   
   
-  
-  
   .BotonesPerfi{
     
     margin-bottom:10px;
-<<<<<<< HEAD
     width:90%;
-=======
-    width:95%;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     display:flex;
     justify-content:space-around;
     align-items:center;
    
   }
-  
   
   
   .BotonesPerfi .inputGost{
@@ -720,22 +689,10 @@
   }
   
   
-  
-  
-  
-<<<<<<< HEAD
-  
   .BotonesDeRedes{
     
     height:50px;
     width:90%;
-=======
-  .BotonesDeRedes{
-    
-    height:50px;
-    width:85%;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
-    
     display:flex;
     justify-content:space-around;
     align-items:center;
@@ -746,7 +703,6 @@
   
   .BotonesDeRedes a{
     
-<<<<<<< HEAD
     background:rgba(0, 0, 0, 0.8);
     ;
     border:2px solid rgba(0, 187, 255, 0.7);
@@ -754,80 +710,47 @@
     border-radius:100%;
     width:45px;
     height:45px;
-=======
-    background:#111;
-    border:1.5px solid #eee;
-    border-radius:100%;
-    width:40px;
-    height:40px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
-    
     display:flex;
     justify-content:center;
     align-items:center;
     box-shadow:4px 4px 5px rgba(20, 20, 25, 0.8);
-<<<<<<< HEAD
     color:rgba(255, 0, 0, 0.8);
     font-size:20px;
     
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
   }
   
   
-  
-<<<<<<< HEAD
-=======
   .BotonesDeRedes a img{
     
     width:30px;
     
   }
-
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
-
-
-
-
-
-
-
-
-
-
-
-/* >>>>>>>>>>>>>>>>*/
-main{
   
-  //background:#777;
-    
-}
+  
+  
+  
+  
 
 
 
 /*>>>>>>>>>>>>>>>>>>>>*/
 /*>>>>>>>>>>>>>>>>>>>>*/
 /*>>>>>>>>>>>>>>>>>>>>*/
-
-
+  
+  
+  
   main .servicios{
     
     overflow:hidden;
-    
-<<<<<<< HEAD
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
     margin-bottom:40px;
     
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
   }
   
   
-
-/* <<Tema>>*/
 :root{
   --bg-glass: rgba(12,22,40,.55);
   --card-glass: rgba(255,255,255,.07);
@@ -838,8 +761,6 @@ main{
   --accent: #5cc8ff;
   --accent-2: #ff6b6b;
 }
-<<<<<<< HEAD
-=======
 
 
 
@@ -851,19 +772,12 @@ main{
     gap: 20px;
   
   }
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
-  
   
   
   .servicios > h2{
     
-<<<<<<< HEAD
     width: 80%;
     margin: 50px 0px 30px;
-=======
-    max-width: 98%;
-    margin: 50px 20px 16px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     font-size: 18px;
     font-weight: 900;
     color: var(--ink-2);
@@ -891,20 +805,11 @@ main{
     overflow-x: auto;
     overflow-y: hidden;
     gap: 30px;
-<<<<<<< HEAD
     height:480px;
     width:97vw;
     
     margin-bottom:50px;
     padding:20px 5px;
-=======
-    height:530px;
-    width:100%;
-    
-    margin-bottom:50px;
-    padding:20px;
-    margin-left:10px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
@@ -913,11 +818,8 @@ main{
   
   .CajaServicios::-webkit-scrollbar{ 
     
-<<<<<<< HEAD
     height: 5px;
-=======
-    height: 15px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
+    
   }
   
   
@@ -946,13 +848,7 @@ main{
     border-radius: 16px;
     border: 2px solid rgba(200, 200, 250, 0.5);
     
-    background:
-<<<<<<< HEAD
-      linear-gradient(130deg, rgba(50, 50, 60, .8), rgba(50, 90, 105, 0.5));
-=======
-      linear-gradient(130deg, rgba(30, 31, 33, 1), rgba(105, 90, 50, 0.5)) , var(--card-glass);
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
-    
+    background: linear-gradient(130deg, rgba(50, 50, 60, .8), rgba(50, 90, 105, 0.5));
     
     box-shadow:
       inset 0 1px 0 rgba(255,255,255,.10),
@@ -978,7 +874,6 @@ main{
   
   .PSuperior img{
     
-<<<<<<< HEAD
     width: 90px; 
     height: 90px;
     margin:20px;
@@ -986,15 +881,6 @@ main{
     border-radius: 100%;
     background: linear-gradient(130deg, rgba(90, 90, 105, .7), rgba(50, 50, 60, 0.5));
     box-shadow:5px 5px 4px #111;
-=======
-    width: 150px; 
-    height: 150px;
-    padding:15px;
-    margin:30px;
-    border: 3px solid #5f5;
-    border-radius: 100%;
-    background: linear-gradient(130deg, rgba(150, 190, 205, 1), rgba(205, 190, 150, 0.5));
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
@@ -1046,7 +932,6 @@ main{
   /*>>>>>>>>>>>>>>>>>>>>*/
 
 
-
   main .proyectos{
     
     background: linear-gradient(to top, rgba(0, 40, 80, 0.97), rgba(0, 20, 45, 0.95)), url('../img/proyectos/fondoProy.jpg');
@@ -1060,27 +945,19 @@ main{
     border-top:1px solid rgba(200, 200, 250, 0.5);
     border-bottom:1px solid rgba(200, 200, 250, 0.5);
     
-<<<<<<< HEAD
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
   }
   
   
   
   .proyectos > h2{
     
-<<<<<<< HEAD
     width: 80%;
     margin: 10px 20px 30px 20px;
-=======
-    max-width: 98%;
-    margin: 30px 20px 60px 20px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     font-size: 18px;
     font-weight: 900;
     color: var(--ink-2);
@@ -1101,7 +978,6 @@ main{
   
   
   
-<<<<<<< HEAD
   .CajaProyectos{
     
     display: grid;
@@ -1109,10 +985,6 @@ main{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     
     max-width: 98vw;
-=======
-  .proyectos .CajaProyectos{
-    
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
@@ -1120,16 +992,9 @@ main{
   
   .proyectos .BigPanel{
     
-    background:
-<<<<<<< HEAD
-      linear-gradient(45deg, rgba(20, 20, 30, 0.7), rgba(20, 20, 50, 0.5)) , var(--card-glass);
+    background: linear-gradient(45deg, rgba(20, 20, 30, 0.7), rgba(20, 20, 50, 0.5)) , var(--card-glass);
     
     margin:20px 15px 50px 15px;
-=======
-      linear-gradient(45deg, rgba(20, 20, 30, 0.5), rgba(20, 20, 50, 0.3)) , var(--card-glass);
-    
-    margin-bottom:50px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     border-left:0px;
     border-right:0px;
     
@@ -1137,12 +1002,9 @@ main{
     
     box-shadow: 8px 10px 7px rgba(20, 20, 25, 0.5);
     
-<<<<<<< HEAD
     width:270px;
     height:465px;
     
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
   }
   
   
@@ -1186,13 +1048,8 @@ main{
   
   .proyectos .PMedio img{
     
-<<<<<<< HEAD
     max-width:96%;
     max-height:300px;
-=======
-    max-width:90%;
-    max-height:450px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     border-radius:15px;
     border:1px solid rgba(200, 200, 250, 0.4);
     box-shadow: 8px 10px 5px rgba(20, 20, 25, 0.8);
@@ -1217,29 +1074,16 @@ main{
   
   .proyectos .PInferior input{
     
-    
-<<<<<<< HEAD
     background:rgba(0, 100, 150, 1);
     
     font-size:15px;
-=======
-    background:rgba(255, 0, 0, 0.5);
-    
-    font-size:18px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     font-weight: bold;
     color:#FFF;
     
     margin-bottom:20px;
     margin-top:20px;
     
-<<<<<<< HEAD
     padding:10px 30px;
-=======
-    padding:10px;
-    padding-left:40px;
-    padding-right:40px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
     border-radius:10px;
     border: 1px solid rgba(187, 187, 255, 0.5);
@@ -1259,7 +1103,6 @@ main{
   /*>>>>>>>>>>>>>>>>>>>>*/
   
   
-  
   main .boxSobreMi{
     
     display:flex;
@@ -1268,10 +1111,7 @@ main{
     align-items:center;
     
     margin-bottom:70px;
-<<<<<<< HEAD
     max-width:100%;
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
@@ -1311,12 +1151,7 @@ main{
   .sobreMiBoxImg{
     
     height:350px;
-<<<<<<< HEAD
     width:100vw;
-=======
-    width:360px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
-    
     display:flex;
     justify-content:center;
     align-items:center;
@@ -1426,19 +1261,14 @@ main{
   /*>>>>>>>>>>>>>>>>>>>>*/
   
  
- 
   main .SkillsBox{
     
     margin-top: 50px;
-<<<<<<< HEAD
     
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
-=======
-    overflow:scroll;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
@@ -1649,22 +1479,17 @@ main{
   /*>>>>>>>>>>>>>>>>>>>>*/
   
   
-  
-  
   main .contacto{
     
     max-width:98%;
     margin: 3%;
     margin-top:80px;
     
-<<<<<<< HEAD
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
     
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
   }
   
   
@@ -1676,6 +1501,7 @@ main{
     margin:10px;
     margin-top: 50px;
     margin-bottom: 50px;
+    width:100%;
     
   }
   
@@ -1685,9 +1511,7 @@ main{
     
     color:#ccf;
     font-size:30px;
-    margin:10px;
-    margin-bottom:15px;
-    margin-top:80px;
+    margin: 80px 10px 15px;
     
   }
   
@@ -1701,12 +1525,15 @@ main{
   
   
   
-  .contacto p{
+  .contacto .subTitulo{
     
     color:#ccd;
     font-weight: 600;
+    text-align:center;
     margin:10px;
     margin-bottom:50px;
+    width:95%;
+    max-width:400px;
     
   }
   
@@ -1715,7 +1542,10 @@ main{
   
   .contacto form{
     
-    
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     
   }
   
@@ -1723,6 +1553,7 @@ main{
   
   .contacto form fieldset{
     
+    max-width:330px;
     padding:15px;
     padding-top:50px;
     padding-bottom:20px;
@@ -1732,7 +1563,6 @@ main{
     border-top:5px solid rgba(250, 250, 250, 0.3);
     border-bottom:5px solid rgba(250, 250, 250, 0.3);
     box-shadow:0px -2px 0px rgba(250, 150, 100, 0.7);
-    
     
   }
   
@@ -1881,7 +1711,6 @@ textarea:-webkit-autofill {
   /*>>>>>>>>>>>>>>>>>>>>*/
   
   
-  
   .nameBox, .emailBox{
     
     position: relative;
@@ -2012,7 +1841,6 @@ textarea:-webkit-autofill {
   /*>>>>>>>>>>>>>>>>>>>>*/
   
   
-  
   .generoBox{
     
     position: relative;
@@ -2105,7 +1933,6 @@ textarea:-webkit-autofill {
   /*>>>>>>>>>>>>>>>>>>>>*/
   
   
-  
   .boxBtFormulario{
     
     width:100%;
@@ -2139,19 +1966,14 @@ textarea:-webkit-autofill {
   /*>>>>>>>>>>>>>>>>>>>>*/
   
   
-  
   .linckBox {
     
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     gap: 10px;
     position:relative;
     padding-bottom: 15px;
-=======
-    gap: 12px;
-    margin: 15px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
+    height:350px;
     
   }
   
@@ -2159,26 +1981,20 @@ textarea:-webkit-autofill {
   
   .linckBox a {
     
-<<<<<<< HEAD
     margin: 15px;
     margin-bottom: 0px;
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     display: inline-block;
     padding: 12px 20px;
     border-radius: 10px;
-    background: rgba(58, 62, 74, 0.6);
+    background: rgba(58, 62, 74, 0.9);
     color: #eef;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     transition: background .3s, box-shadow .3s, transform .2s;
     box-shadow: 2px 2px 6px rgba(0,0,0,.4);
-<<<<<<< HEAD
     position:relative;
     z-index:5;
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
@@ -2204,14 +2020,13 @@ textarea:-webkit-autofill {
   
   
   
-<<<<<<< HEAD
   .contact-mapContent {
     
     border-radius: 15px;
     position:absolute;
     z-index:4;
     width:100%;
-    height:100%;
+    height:350px;
     
     overflow:hidden;
     top:0;
@@ -2224,13 +2039,10 @@ textarea:-webkit-autofill {
     
     width:100%;
     height:100%;
-    border:none !important;
+    border:none;
     
   }
   
-  
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
   
   
   /*>>>>>>>>>>>>>>>>>>>>*/
@@ -2251,7 +2063,7 @@ textarea:-webkit-autofill {
   .TestimoniosBox p{
     
     margin-bottom:15px;
-    
+    text-align:center;
   }
   
   
@@ -2272,12 +2084,8 @@ textarea:-webkit-autofill {
     margin-right:30px;
     margin-top:20px;
     margin-bottom:30px;
-    padding: 5%;
-<<<<<<< HEAD
+    padding: 5% 27px;
     min-width:290px;
-=======
-    min-width:280px;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
     color:#eef;
     
@@ -2293,29 +2101,21 @@ textarea:-webkit-autofill {
     flex-direction:column;
     justify-content:space-between;
     
-<<<<<<< HEAD
-=======
-    background:rgba(30, 45, 50, 0.5);
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
   
   
-<<<<<<< HEAD
   .comentario_titular {
     
     margin:10px;
     padding:0;
     
   }
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
   
   
   blockquote p {
     
-<<<<<<< HEAD
     padding-top:0;
     line-height: 1.9;
     height:170px;
@@ -2340,11 +2140,6 @@ textarea:-webkit-autofill {
     
     position:absolute;
     z-index:5;
-=======
-    line-height: 1.9;
-    height:45%;
-    
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     
   }
   
@@ -2396,10 +2191,6 @@ textarea:-webkit-autofill {
     font-weight: bold;
     line-height: 1.2;
     
-<<<<<<< HEAD
-=======
-    color: #999;
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
     text-shadow:0px 0.5px 0px rgba(150, 150, 250, 0.8);
     
     width: 160px;
@@ -2415,16 +2206,12 @@ textarea:-webkit-autofill {
   
   
   
-<<<<<<< HEAD
   .author p a{
     
-    color: #999;
+    color: #99b;
     
   }
   
-  
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
   
   
   
@@ -2606,7 +2393,6 @@ textarea:-webkit-autofill {
     
   }
   
-<<<<<<< HEAD
   .nameBandaFt a{
     
     color: #eee !important;
@@ -2614,8 +2400,6 @@ textarea:-webkit-autofill {
     
   }
   
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
   
   #footer .subFt4 img{
     
@@ -2637,7 +2421,6 @@ textarea:-webkit-autofill {
     
   }
   
-<<<<<<< HEAD
   
   
   .curriculum_emergenteBox{
@@ -2708,6 +2491,5 @@ textarea:-webkit-autofill {
     height:100%;
     
   }
-=======
->>>>>>> c9ab3ce3ec78e2a069eca198024120a8d11632a4
   
+   
