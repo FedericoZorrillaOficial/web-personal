@@ -1,0 +1,74 @@
+[
+  {
+    "id": "que_estoy_haciendo",
+    "titulo": "¿Qué estoy haciendo?",
+    "fecha": "última modificación 2025-05-31",
+    "etiquetas": ["Bitácora", "Proyectos", "Vida personal"],
+    "archivo": "entradas/que_estoy_haciendo.html",
+    "resumen": "Registro personal de actividades, avances y metas. Aquí comparto en qué estoy trabajando actualmente."
+  },
+  {
+    "id": "avance_tecnico",
+    "titulo": "Avance técnico / Código",
+    "fecha": "última modificación 2025-05-31",
+    "etiquetas": ["Código", "Desarrollo", "Frontend"],
+    "archivo": "entradas/avance_tecnico.html",
+    "resumen": "Publicaciones relacionadas con mis progresos en programación, snippets útiles y soluciones técnicas."
+  },
+  {
+    "id": "reflexion_filosofia",
+    "titulo": "Reflexión / Filosofía",
+    "fecha": "última modificación 2025-05-31",
+    "etiquetas": ["Filosofía", "Reflexiones", "Pensamiento"],
+    "archivo": "entradas/reflexion_filosofia.html",
+    "resumen": "Ideas sobre la vida, la tecnología, el sentido de las cosas y cómo me relaciono con el mundo desde lo profundo."
+  },
+  {
+    "id": "fragmentos_libro",
+    "titulo": "Fragmentos de libro",
+    "fecha": "última modificación 2025-05-31",
+    "etiquetas": ["Lecturas", "Libros", "Análisis"],
+    "archivo": "entradas/fragmentos_libro.html",
+    "resumen": "Aquí guardo y comento partes de libros que me marcaron, con reflexiones conectadas a mis ideas o proyectos."
+  },
+  {
+    "id": "rutina_bienestar",
+    "titulo": "Rutina / Bienestar",
+    "fecha": "última modificación 2025-05-31",
+    "etiquetas": ["Bienestar", "Ejercicio", "Hábitos"],
+    "archivo": "entradas/rutina_bienestar.html",
+    "resumen": "Mi experiencia personal construyendo hábitos, rutinas de ejercicio y prácticas para mejorar el bienestar integral."
+  },
+  {
+    "id": "investigacion_teoria",
+    "titulo": "Investigación / Teoría personal",
+    "fecha": "última modificación 2025-05-31",
+    "etiquetas": ["Teoría", "Investigación", "DOH"],
+    "archivo": "entradas/investigacion_teoria.html",
+    "resumen": "Exploro hipótesis propias, modelos como el Calendario D.O.H., y conexiones entre ideas de distintas disciplinas."
+  },
+  {
+    "id": "ideas_sueltas",
+    "titulo": "Ideas sueltas / Conceptos locos",
+    "fecha": "última modificación 2025-05-31",
+    "etiquetas": ["Creatividad", "Ideas", "Conceptos"],
+    "archivo": "entradas/ideas_sueltas.html",
+    "resumen": "Una sección libre para apuntes dispersos, ideas inesperadas o conexiones extrañas que podrían inspirar algo grande."
+  },
+  {
+    "id": "narrativa_historia",
+    "titulo": "Narrativa / Historia",
+    "fecha": "última modificación 2025-05-31",
+    "etiquetas": ["Ficción", "Historia", "Relatos"],
+    "archivo": "entradas/narrativa_historia.html",
+    "resumen": "Espacio para relatos, ficciones breves o reconstrucciones narrativas de conceptos filosóficos o históricos."
+  },
+  {
+    "id": "monologo_personaje",
+    "titulo": "Monólogo / Voz de personaje",
+    "fecha": "última modificación 2025-05-31",
+    "etiquetas": ["Personajes", "Narrativa", "Voz interna"],
+    "archivo": "entradas/monologo_personaje.html",
+    "resumen": "Ensayos o reflexiones desde la voz de personajes creados para representar ideas, emociones o versiones de mí mismo."
+  }
+]
