@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 64 64"
+     width="900"
+     preserveAspectRatio="xMidYMid meet">
+
+  <g fill="red">
+    <!-- Parte izquierda del libro -->
+    <path d="M4 8h26a2 2 0 012 2v44a2 2 0 01-2 2H4V8z"/>
+    
+    <!-- Parte derecha del libro -->
+    <path d="M60 8H34a2 2 0 00-2 2v44a2 2 0 002 2h26V8z"/>
+    
+    <!-- Línea central del libro -->
+    <line x1="32" y1="8" x2="32" y2="56"/>
+  </g>
+
+  <!-- Texto “BLOG” centrado -->
+  <text x="32" y="30"
+        font-family="Arial, sans-serif"
+        font-size="25"
+        fill="white"
+        text-anchor="middle"
+        alignment-baseline="middle"
+        font-weight="bold">
+    BLOG
+  </text>
+</svg>
