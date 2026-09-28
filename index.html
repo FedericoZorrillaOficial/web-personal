@@ -1,16 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  
   <head>
     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Codificación y móviles -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Federico Zorrilla — Software Engineer &amp; Product Engineer
+    </title>
     
-    
-    <!-- Título y descripción -->
-    <title>Federico Zorrilla — Desarrollador Web</title>
     
     <meta name="description" content="Soy Federico Zorrilla, desarrollador Web. Creo experiencias web modernas, accesibles y eficientes. Mira mis proyectos y servicios." />
     
@@ -70,20 +68,6 @@
     <meta name="twitter:image" content="https://federicozorrillaoficial.com/img/federico.png" />
     
     <meta name="twitter:site" content="@Federico_Z_O" />
-    
-    
-    
-    
-    <!-- CSS -->
-    <link rel="preload" href="styles/main.css" as="style" />
-    <link rel="stylesheet" href="styles/main.css" />
-    
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    
-    
     
     
     
@@ -148,620 +132,487 @@
     </script>
     
     
+    
+    <link rel="stylesheet" href="css/styles.css">
+    
+    
   </head>
   <body>
     
     
-    <!--portada///////////-->
-    <header>
-      
-      
-      <nav class="menu">
-        
-        
-        <button type="button" class="BotonInMenu" onclick="abrirMenu()">
-          
-          <span>M</span>enu
-          
-        </button>
-        
-        
-        
-        
-        <div class="Menu_itemsBox menu_oculto" tabindex="0">
-          
-          
-          
-          <div class="Menu_boxTitle">
-            
-            <div class="Menu_TitleSubBox">
-              
-              <div class="logo"></div>
-              
-              Federico
-              
-            </div>
-            
-            
-            <div class="moonBox">
-              
-              <div class="moonPoint"></div>
-              
-            </div>
-            
-            
-            <div class="Menu_TitleSubBox">
-              
-              <button type="button" class="BotonSalirMenu" onclick="cerrarMenu()">
-                ×
-              </button>
-              
-            </div>
-            
-            
-          </div>
-          
-          
-          
-          <div class="menu_olas">
-            
-            <div class="olas"></div>
-            
-          </div>
-          
-          
-          <ul>
-            
-            
-            <li>
-              
-              <button type="button" onclick="irA('index.html#')">
-                
-                <span>H</span>ome
-                
-              </button>
-            </li>
-            
-            
-            <li>
-              
-              <button type="button" onclick="irA('extend/Proyectos')">
-                
-                <span>P</span>royectos
-                
-              </button>
-            </li>
-            
-            
-            <li>
-              
-              <button type="button" onclick="irA('index.html#Skills')">
-                
-                <span>S</span>kills
-                
-              </button>
-            </li>
-            
-            
-            <li>
-              
-              <button type="button" onclick="irA('extend/Contacto')">
-                
-                <span>C</span>ontactar
-                
-              </button>
-            </li>
-            
-            
-            <li>
-              
-              <button type="button" onclick="irA('extend/SobreMi')">
-                
-                <span>S</span>obre mí
-                
-              </button>
-            </li>
-            
-            
-            <li>
-              
-              <button type="button" onclick="irA('extend/Blog')">
-                
-                <span>B</span>log
-                
-              </button>
-            </li>
-            
-            
-            <li>
-              <button type="button" onclick="irA('extend/Tutoriales')">
-                
-                <span>V</span>ideos
-                
-              </button>
-            </li>
-            
-          </ul>
-          
-          
-          
-          
-          
-          <div class="menu_buttonBox">
-            
-            <button type="button" onclick="irA('extend/Curriculum')">
-              Ver currículum
-              
-            </button>
-            
-            <div class="aro1 aros"></div>
-            <div class="aro2 aros"></div>
-            
-          </div>
-          
-          
-        </div>
-        
-      </nav>
-      
-      
-      
-      
-      
-      <div class="FtPerfilBox">
-        <img class="FtPerfil" src="img/federico.png"
-          alt="Foto de Perfil"
-          loading="lazy"
-        />
-      </div>
-      
-      
-      <div class="contentInPortada">
-        
-        
-        <div class="PerfilBoxTitle">
+    <!-- Header -->
+    <header class="canvas_bg">
+
+      <canvas class="constelaciones"></canvas>
+
+      <div class="content_section">
+
+        <div class="description_box">
           
           <h1>
-            <em>
-              Federico Zorrilla
-            </em>
+            Federico Zorrilla
           </h1>
           
-          
-          <h2 class="PerfilSubtitle">
-            Desarrollador Web             
+          <h2>
+            Software Engineer &amp; Product Engineer
           </h2>
-          
-          
-          <h3 class="PerfilSubtitle3">
-            Transformo ideas en experiencias web limpias, modernas y memorables.
-          </h3>
-          
+
+          <p>
+            Soluciono problemas técnicos <span> tanto en backend como en frontend. </span> Diseño y programo aplicaciones web escalables enfocadas en el rendimiento y la conversión de negocios.
+          </p>
+
+        </div>
+
+
+        <div class="accion_box">
+
+          <!-- TODO: reemplaza con tus links reales (GitHub, LinkedIn, YouTube, etc.) -->
+          <a href="#" target="_blank">
+            <img src="img/svg/linkedin.svg">
+          </a>
+
+          <a href="#" target="_blank">
+            <img src="img/svg/youtube.svg">
+          </a>
+
+          <a href="#" target="_blank">
+            <img src="img/svg/github.svg">
+          </a>
+
+          <a href="extend/blog" target="_blank">
+            <img src="img/svg/blog.svg">
+          </a>
+
         </div>
         
         
-        <div class="BotonesPerfi">
-          
-          <input name="" class="inputGost" type="button" value="Ver proyectos" onClick="irA('extend/Proyectos')"/>
-          
-          <input name="" type="button" value=" Contáctame " onClick="irA('extend/Contacto')"/>
-          
-        </div>
-        
-        
-        <div class="BotonesDeRedes">
-          
-          <a href="https://github.com/FedericoZorrillaOficial" target="_blank" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-            
-            <span class="seoTrack">
-              github de Federico Zorrilla Oficial
-            </span>
-            
-          </a>
-          
-          <a href="https://www.linkedin.com/in/federicozorrilla" target="_blank" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-            
-            <span class="seoTrack">
-              linkedin de Federico Zorrilla Oficial
-            </span>
-          </a>
-          
-          <a href="https://www.youtube.com/@Federicozorrillaoficial" target="_blank" aria-label="YouTube">
-            <i class="fab fa-youtube"></i>
-            <span class="seoTrack">
-              youtube de Federico Zorrilla Oficial
-            </span>
-          </a>
-          
-          <a href="https://www.freelancer.com/u/FedericoZo" target="_blank" aria-label="Freelancer">
-            <i class="fas fa-briefcase"></i>
-            
-            <span class="seoTrack">
-              Perfil Workana de Federico Zorrilla Oficial
-            </span>
-            
-          </a>
-          
-          <a href="extend/Blog" target="_blank" aria-label="Blog">
-            <i class="fas fa-blog"></i>
-            
-            <span class="seoTrack">
-              Blog de Federico Zorrilla Oficial
-            </span>
-            
-          </a>
-          
-        </div>
-        
+        <p class="loadtime_badge" id="loadTimeBadge"></p>
         
       </div>
-      
-      
+
     </header>
-    
-    
     
     
     
     <main>
       
+      <!-- Trabajos -->
+      <section class="trabajos_section">
+
+        <div class="content_section content_trabajos">
+
+          <div class="box_title">
+
+            <h2>
+              Trabajos
+            </h2>
+
+            <p>
+              Experiencia real, con resultados medibles.
+            </p>
+
+          </div>
+
+
+          <div class="trabajos_box">
+           
+            
+            <!-- Ferm -->
+            <article class="trabajo_card">
+
+              <div class="nombre_box">
+                <h3 class="trabajo_nombre">
+                  Ferm — Plataforma SaaS de Comercio Digital
+                </h3>
+                <p class="trabajo_rol">
+                  Software Engineer &amp; Arquitecto de Producto
+                </p>
+              </div>
+
+              <div class="descripcion_box">
+
+                <p>
+                  <strong>El problema:</strong> los pequeños comercios pierden ventas por falta de automatización, pero las soluciones de software tradicionales son costosas, pesadas y difíciles de escalar en servidores económicos.
+                </p>
+
+                <p>
+                  <strong>Mi solución:</strong> inicialmente construida en Laravel y Nuxt.js. Al analizar el impacto de costos y almacenamiento (300MB por tienda), tomé la decisión de remover por completo ambos frameworks y reescribir la plataforma desde cero en PHP vanilla y JavaScript vanilla (ES6+).
+                </p>
+
+                <p>
+                  <strong>El resultado:</strong> reduje el peso de cada tienda de 300MB a 4MB reales en disco (98.6% de optimización), lo que permite alojar cientos de tiendas autónomas en un VPS básico con consumo mínimo de CPU y RAM.
+                </p>
+
+                <p class="live_stat" id="tiendasActivas">
+                  Cargando datos en vivo...
+                </p>
+
+              </div>
+
+              <div class="tags_box">
+                <span>PHP Vanilla</span>
+                <span>JavaScript Nativo</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Git</span>
+              </div>
+
+              <div class="botones_box">
+                <a href="https://ferm.cloud" target="_blank">Ver en vivo</a>
+                <!-- TODO: enlaza un diagrama/explicación de la arquitectura (código privado, no hay repo público) -->
+                <a href="#" target="_blank">Arquitectura</a>
+                <!-- TODO: enlaza al post de tu bitácora cuando lo escribas -->
+                <a href="#" target="_blank">Leer el caso completo</a>
+              </div>
+
+            </article>
+            
+            
+            
+            <article class="trabajo_card">
+
+              <div class="nombre_box">
+                <h3 class="trabajo_nombre">
+                  [Nombre de la tienda] — Implementación E-Commerce
+                </h3>
+                <p class="trabajo_rol">
+                  Software Engineer
+                </p>
+              </div>
+
+              <div class="descripcion_box">
+
+                <p>
+                  <strong>El problema:</strong> el negocio necesitaba digitalizar su catálogo de forma urgente y procesar pedidos directamente, sin procesos manuales lentos.
+                </p>
+
+                <p>
+                  <strong>Mi solución:</strong> desplegué y adapté el núcleo del motor comercial de Ferm (PHP y JavaScript vanilla), creando un panel administrativo a medida y una interfaz optimizada para navegación móvil.
+                </p>
+
+                <p>
+                  <strong>El resultado:</strong> lanzamiento exitoso de un producto mínimo viable comercial que permite al negocio recibir órdenes de compra validadas al instante.
+                </p>
+
+              </div>
+
+              <div class="tags_box">
+                <span>PHP Vanilla</span>
+                <span>JavaScript Nativo</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+              </div>
+
+              <div class="botones_box">
+                <!-- TODO: pon el link real de la tienda en vivo -->
+                <a href="#" target="_blank">Ver tienda en vivo</a>
+                <a href="#" target="_blank">Leer el caso completo</a>
+              </div>
+
+            </article>
+            
+            
+            
+            
+            <article class="trabajo_card">
+
+              <div class="nombre_box">
+                <h3 class="trabajo_nombre">
+                  Ferm — Plataforma SaaS de Comercio Digital
+                </h3>
+                <p class="trabajo_rol">
+                  Software Engineer &amp; Arquitecto de Producto
+                </p>
+              </div>
+
+              <div class="descripcion_box">
+
+                <p>
+                  <strong>El problema:</strong> los pequeños comercios pierden ventas por falta de automatización, pero las soluciones de software tradicionales son costosas, pesadas y difíciles de escalar en servidores económicos.
+                </p>
+
+                <p>
+                  <strong>Mi solución:</strong> inicialmente construida en Laravel y Nuxt.js. Al analizar el impacto de costos y almacenamiento (300MB por tienda), tomé la decisión de remover por completo ambos frameworks y reescribir la plataforma desde cero en PHP vanilla y JavaScript vanilla (ES6+).
+                </p>
+
+                <p>
+                  <strong>El resultado:</strong> reduje el peso de cada tienda de 300MB a 4MB reales en disco (98.6% de optimización), lo que permite alojar cientos de tiendas autónomas en un VPS básico con consumo mínimo de CPU y RAM.
+                </p>
+
+                <p class="live_stat" id="tiendasActivas">
+                  Cargando datos en vivo...
+                </p>
+
+              </div>
+
+              <div class="tags_box">
+                <span>PHP Vanilla</span>
+                <span>JavaScript Nativo</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Git</span>
+              </div>
+
+              <div class="botones_box">
+                <a href="https://ferm.cloud" target="_blank">Ver en vivo</a>
+                <!-- TODO: enlaza un diagrama/explicación de la arquitectura (código privado, no hay repo público) -->
+                <a href="#" target="_blank">Arquitectura</a>
+                <!-- TODO: enlaza al post de tu bitácora cuando lo escribas -->
+                <a href="#" target="_blank">Leer el caso completo</a>
+              </div>
+
+            </article>
+            
+            
+            
+            <article class="trabajo_card">
+
+              <div class="nombre_box">
+                <h3 class="trabajo_nombre">
+                  [Nombre de la tienda] — Implementación E-Commerce
+                </h3>
+                <p class="trabajo_rol">
+                  Software Engineer
+                </p>
+              </div>
+
+              <div class="descripcion_box">
+
+                <p>
+                  <strong>El problema:</strong> el negocio necesitaba digitalizar su catálogo de forma urgente y procesar pedidos directamente, sin procesos manuales lentos.
+                </p>
+
+                <p>
+                  <strong>Mi solución:</strong> desplegué y adapté el núcleo del motor comercial de Ferm (PHP y JavaScript vanilla), creando un panel administrativo a medida y una interfaz optimizada para navegación móvil.
+                </p>
+
+                <p>
+                  <strong>El resultado:</strong> lanzamiento exitoso de un producto mínimo viable comercial que permite al negocio recibir órdenes de compra validadas al instante.
+                </p>
+
+              </div>
+
+              <div class="tags_box">
+                <span>PHP Vanilla</span>
+                <span>JavaScript Nativo</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+              </div>
+
+              <div class="botones_box">
+                <!-- TODO: pon el link real de la tienda en vivo -->
+                <a href="#" target="_blank">Ver tienda en vivo</a>
+                <a href="#" target="_blank">Leer el caso completo</a>
+              </div>
+
+            </article>
+            
+           
+          </div>
+          
+        </div>
+
+
+        <!-- Proyectos -->
+        <div class="content_section content_trabajos">
+
+          <div class="box_title">
+
+            <h2>
+              Proyectos
+            </h2>
+
+            <p>
+              Otros proyectos que he desarrollado.
+            </p>
+
+          </div>
+
+
+          <div class="trabajos_box">
+           
+            
+            <article class="trabajo_card">
+
+              <div class="nombre_box">
+                <h3 class="trabajo_nombre">
+                  [Nombre del proyecto] — Herramienta / Script
+                </h3>
+              </div>
+
+              <div class="descripcion_box">
+                <p>
+                  Descripción corta de qué problema resuelve este proyecto y qué lo hace interesante técnicamente.
+                </p>
+              </div>
+
+              <div class="tags_box">
+                <span>JavaScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+              </div>
+
+              <div class="botones_box">
+                <a href="#" target="_blank">Ver en vivo</a>
+                <a href="#" target="_blank">Repositorio</a>
+              </div>
+
+            </article>
+            
+            
+            <article class="trabajo_card">
+
+              <div class="nombre_box">
+                <h3 class="trabajo_nombre">
+                  [Nombre del proyecto] — Herramienta / Script
+                </h3>
+              </div>
+
+              <div class="descripcion_box">
+                <p>
+                  Descripción corta de qué problema resuelve este proyecto y qué lo hace interesante técnicamente.
+                </p>
+              </div>
+
+              <div class="tags_box">
+                <span>JavaScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+              </div>
+
+              <div class="botones_box">
+                <a href="#" target="_blank">Ver en vivo</a>
+                <a href="#" target="_blank">Repositorio</a>
+              </div>
+
+            </article>
+            
+            
+            <article class="trabajo_card">
+
+              <div class="nombre_box">
+                <h3 class="trabajo_nombre">
+                  [Nombre del proyecto] — Herramienta / Script
+                </h3>
+              </div>
+
+              <div class="descripcion_box">
+                <p>
+                  Descripción corta de qué problema resuelve este proyecto y qué lo hace interesante técnicamente.
+                </p>
+              </div>
+
+              <div class="tags_box">
+                <span>JavaScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+              </div>
+
+              <div class="botones_box">
+                <a href="#" target="_blank">Ver en vivo</a>
+                <a href="#" target="_blank">Repositorio</a>
+              </div>
+
+            </article>
+            
+            
+            <article class="trabajo_card">
+
+              <div class="nombre_box">
+                <h3 class="trabajo_nombre">
+                  [Nombre del proyecto] — Herramienta / Script
+                </h3>
+              </div>
+
+              <div class="descripcion_box">
+                <p>
+                  Descripción corta de qué problema resuelve este proyecto y qué lo hace interesante técnicamente.
+                </p>
+              </div>
+
+              <div class="tags_box">
+                <span>JavaScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+              </div>
+
+              <div class="botones_box">
+                <a href="#" target="_blank">Ver en vivo</a>
+                <a href="#" target="_blank">Repositorio</a>
+              </div>
+
+            </article>
+            
+           
+          </div>
+
+        </div>
+
+      </section>
       
-      <section class="servicios">
+      
+      <!-- Contacto -->
+      <section class="contacto_section">
         
-        <h2>
-          <span>
-            Tu idea, mi código:
-          </span> 
-          <br/>
-          convierto conceptos en experiencias web claras, modernas y sin complicaciones.
+        <div class="content_section content_contacto">
           
-        </h2>
-        
-        
-        
-        <div class="CajaServicios">
-          
-          
-          
-          
-          <section class="Panel PMedium">
+          <div class="box_title">
             
+            <h2>
+              Contactame
+            </h2>
             
-            <div class = "PSuperior">
-              <img
-                src="img/servicios/globo.svg"
-                alt="ImgDescrip"
-              />
+            <p>
+              Cuéntame sobre tu proyecto o negocio.
+            </p>
+            
+          </div>
+          
+          
+          <div class="contact_box">
+           
+            
+            <div class="contact_grup">
               
-            </div>
-            
-            
-            <div class = "PMedio">
               <h3>
-                Tu presencia online, bien hecha
+                Para reclutamiento
               </h3>
-            </div>
-            
-            
-            <div class = "PInferior">
               
-              <ul>
+              <div class="redes_box">
+                <a href="mailto:federicozorrillaoficial@gmail.com">
+                Gmail
+                </a>
                 
-                <li>
-                  Sitios que se ven bien y rinden mejor
-                </li>
+                <a href="#" target="_blank">
+                  X
+                </a>
                 
-                <li>
-                  Transformo tus ideas en soluciones reales
-                </li>
+                <a href="#" target="_blank">
+                  LinkedIn
+                </a>
                 
-                <li>
-                  Sin dolores de cabeza ni jerga técnica
-                </li>
-                
-              </ul>
-              
-            </div>
-            
-          </section>
-          
-          
-          
-          <section class="Panel PMedium">
-            
-            <div class = "PSuperior">
-              <img
-                src="img/servicios/check.svg"
-                alt="ImgDescrip"
-              />
+                <a href="#" target="_blank">
+                  Malt
+                </a>
+              </div>
               
             </div>
             
             
-            <div class = "PMedio">
+            <div class="contact_grup">
+              
               <h3>
-                Claridad, velocidad y confianza
+                ¿Eres empresario o emprendedor?
               </h3>
-            </div>
-            
-            
-            <div class = "PInferior">
               
-              <ul>
-                
-                <li> 
-                  Diseño rápido, accesible y adaptado a cualquier dispositivo 
-                </li>
-                
-                <li>
-                  Comunicación directa y transparente
-                </li>
-                
-                <li>
-                  Proceso claro, sin vueltas
-                </li>
-                
-              </ul>
+              <a href="https://wa.me/18297767094" target="_blank" class="whatsapp_btn">
+                Agenda una consultoría
+              </a>
               
             </div>
             
-          </section>
+          </div>
           
-          
-          
-          <section class="Panel PMedium">
-            
-            <div class = "PSuperior">
-              <img
-                src="img/servicios/puzzle.svg"
-                alt="ImgDescrip"
-              />
-              
-            </div>
-            
-            
-            <div class = "PMedio">
-              <h3>
-                Maquetación web moderna
-              </h3>
-            </div>
-            
-            
-            <div class = "PInferior">
-              
-              <ul>
-                
-                <li>
-                  HTML5, CSS3, Flexbox y Grid
-                </li>
-                
-                <li>
-                  Diseño responsive (mobile first)
-                </li>
-                
-                <li>
-                  Código ordenado y semántico
-                </li>
-                
-              </ul>
-              
-            </div>
-            
-          </section>
-          
-          
-          
-          <section class="Panel PMedium">
-            
-            <div class = "PSuperior">
-              <img
-                src="img/servicios/tuerca.svg"
-                alt="ImgDescrip"
-              />
-              
-            </div>
-            
-            
-            <div class = "PMedio">
-              <h3>
-                Interacción dinámica con JavaScript
-              </h3>
-            </div>
-            
-            
-            <div class = "PInferior">
-              
-              <ul>
-                
-                <li>
-                  Comportamientos  intuitivos
-                </li>
-                
-                <li>
-                  
-                  APIs externas e internas
-                </li>
-                
-                <li>
-                  
-                  Manipulación eficiente del DOM
-                </li>
-                
-              </ul>
-              
-            </div>
-            
-          </section>
-          
-          
-          
-          <section class="Panel PMedium">
-            
-            <div class = "PSuperior">
-              <img
-                src="img/servicios/paleta.svg"
-                alt="ImgDescrip"
-              />
-              
-            </div>
-            
-            
-            <div class = "PMedio">
-              <h3>
-                Estilos reutilizables y visuales consistentes
-              </h3>
-            </div>
-            
-            
-            <div class = "PInferior">
-              
-              <ul>
-                
-                <li>
-                  Sass, Bootstrap, TailwindCSS
-                </li>
-                
-                <li> 
-                  Estética profesional y coherente
-                </li>
-                
-                <li>
-                  Animaciones sutiles y agradables
-                </li>
-                
-              </ul>
-              
-            </div>
-            
-          </section>
-          
-          
-          
-          <section class="Panel PMedium">
-            
-            <div class = "PSuperior">
-              <img
-                src="img/servicios/rayo.svg"
-                alt="ImgDescrip"
-              />
-              
-            </div>
-            
-            
-            <div class = "PMedio">
-              <h3>
-                Rendimiento y optimización real
-              </h3>
-            </div>
-            
-            
-            <div class = "PInferior">
-              
-              <ul>
-                
-                <li>
-                  SEO técnico desde el código
-                </li>
-                
-                <li>
-                  Alta velocidad de carga
-                </li>
-                
-                <li>
-                  Preparado para auditorías como Lighthouse
-                </li>
-                
-              </ul>
-              
-            </div>
-            
-          </section>
-          
-          
-          
-          <section class="Panel PMedium">
-            
-            <div class = "PSuperior">
-              <img
-                src="img/servicios/cadena.svg"
-                alt="ImgDescrip"
-              />
-              
-            </div>
-            
-            
-            <div class = "PMedio">
-              <h3>
-                Conexión con herramientas externas
-              </h3>
-            </div>
-            
-            
-            <div class = "PInferior">
-              
-              <ul>
-                
-                <li>
-                  Formularios listos para enviar
-                </li>
-                
-                <li>
-                  Integración con servicios como email, CMS o APIs
-                </li>
-                
-                <li>
-                  Preparado para backend sin esfuerzo extra
-                </li>
-                
-              </ul>
-              
-            </div>
-            
-          </section>
-          
-          
-          
-          <section class="Panel PMedium">
-            
-            <div class = "PSuperior">
-              <img
-                src="img/servicios/cerebro.svg"
-                alt="ImgDescrip"
-              />
-              
-            </div>
-            
-            
-            <div class = "PMedio">
-              <h3>
-                Soluciones hechas a tu medida
-              </h3>
-            </div>
-            
-            
-            <div class = "PInferior">
-              
-              <ul>
-                
-                <li>
-                  Trabajo centrado en tus objetivos
-                </li>
-                
-                <li>
-                  Nada de plantillas genéricas
-                </li>
-                
-                <li>
-                  Sitios únicos para proyectos únicos
-                </li>
-                
-              </ul>
-              
-            </div>
-            
-          </section>
          
         </div>
         
@@ -769,1180 +620,171 @@
       
       
       
-      
-      
-      <section class="proyectos">
+      <!-- Sobre Mí -->
+      <section class="sobremi_section canvas_bg">
+       
+        
+        <canvas class="estrellas_fugases"></canvas>
         
         
-        <h2>
-          <span>
-            Mis proyectos:
-          </span> 
-          
-          <br/>
-          
-          Algunas ideas que pase del papel a la realidad
-        </h2>
-        
-        
-        
-        <div class="CajaProyectos">
-          
-          <!--
-          <article class="Panel PBig">
-            
-            <div class = "PSuperior">
-            <h4>
-              Titulo temporal
-            </h4>
-      </div>
-            
-            
-            <div class = "PMedio">
-              
-              <img 
-                src="img/Proyectos/proyecto1.jpg"
-                src="Dir.Proyecto1" 
-                alt="ImgDescrip"
-              />;
-              
-            </div>
-            
-            
-            <div class = "PInferior">
-              
-              <input type="button" value ="ver mas..." />
-              
-            </div>
-            
-          </article>
-          
-          
-          <article class="Panel PBig">
-            
-            <div class = "PSuperior">
-            <h4>
-              Titulo temporal
-            </h4>
-      </div>
-            
-            
-            <div class = "PMedio">
-              
-              <img 
-                src="img/Proyectos/proyecto1.jpg"
-                src="Dir.Proyecto1" 
-                alt="ImgDescrip"
-              />;
-              
-            </div>
-            
-            
-            <div class = "PInferior">
-              
-              <input type="button" value ="ver mas..." />
-              
-            </div>
-            
-          </article>
-          
-          
-          <article class="Panel PBig">
-            
-            <div class = "PSuperior">
-            <h4>
-              Titulo temporal
-            </h4>
-      </div>
-            
-            
-            <div class = "PMedio">
-              
-              <img 
-                src="img/Proyectos/proyecto1.jpg"
-                src="Dir.Proyecto1"
-                alt="ImgDescrip"
-              />;
-              
-            </div>
-            
-            
-            <div class = "PInferior">
-              
-              <input type="button" value ="ver mas..." />
-              
-            </div>
-            
-          </article>
-          -->
-          
-        </div>
-        
-      </section>
-      
-      
-      
-      
-      
-      <section class="boxSobreMi">
-        
-        
-        <h3>
-          <span>S</span>obre mí
-        </h3>
-        
-        
-        <div class="sobreMiBoxImg">
-          
-          <img
-            src="img/sobreMi.png"
-            alt="Foto de Federico Zorrilla"
-            loading="lazy"
-          />
-          
-        </div>
-        
-        
-        
-        <div class="sobreMiBoxTexto">
-          
-          
-          <article class="textoSobreMi">
-            
-            <p>
-              
-              <span>H</span>ola, soy Federico Zorrilla, desarrollador web autodidacta con una profunda pasión por el aprendizaje continuo.
-            </p>
-            
-            
-            <p>
-              
-              Descubrí la programación a los 14 años, y desde entonces he recorrido un camino de estudio y práctica que me ha permitido construir habilidades sólidas en desarrollo web moderno.
-            </p>
-            
-            
-            <p>
-              
-              Actualmente trabajo como freelancer, pero estoy abierto a integrarme en equipos profesionales bajo contrato, donde pueda seguir creciendo y aportar con excelencia técnica.
-            </p>
-            
-          </article>
-          
-          
-          <div class="boxBtVerMas">
-            
-            <input class="" type="button" value="Leer más..." onClick="irA('extend/Contacto')" />
-            
-          </div>
-          
-        </div>
-        
-      </section>
-      
-      
-      
-      
-      
-      
-      <section id="Skills" class="SkillsBox">
-        
-        
-        <section class="SkillSubBox">
-          
-          <h2>
-            <span>T</span>echnical skills
-          </h2>
-          
-          
-          <h3>
-            Frontend
-          </h3>
-          
-          
-          
-          <article>
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  
-                  Estructura semántica del contenido web
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  HTML5
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img
-                  src="img/svg/html.svg" 
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  90%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  Estilo visual, layout y adaptabilidad
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  CSS3
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/css.svg" 
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  85%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  Lógica, interacción y manipulación del DOM
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  JavaScript
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/js.svg" 
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  80%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  CSS extendido con variables, funciones y mejor organización
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  Sass
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img
-                  src="img/svg/sass.svg" 
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  73%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-          </article>
-          
-          
-          <article>
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  
-                  Framework utilitario para diseño ágil y responsive"
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  TailwindCSS
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img
-                  src="img/svg/tailwindcss.svg" 
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  70%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  
-                  Framework con componentes predefinidos y diseño responsivo rápido
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  Bootstrap
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img
-                  src="img/svg/bootstrap.svg" 
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  80%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  
-                  Superset de JavaScript con tipado estático para mayor seguridad
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  TypeScript
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/typescript.svg" 
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  50%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  
-                  Librería para crear interfaces de usuario reactivas y componibles"
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  React.js
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/react.svg" 
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  80%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-          </article>
-          
-        </section>
-        
-        
-        <section class="SkillSubBox">
+        <div class="content_section content_sobremi">
          
-          <h3>
-            Herramientas
-          </h3>
           
-          
-          <article>
+          <div class="box_title">
             
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  
-                  Control de versiones, ramas y colaboración en proyectos
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  Git & GitHub
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/git.svg"
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  85%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  
-                  Gestión de paquetes y scripts para proyectos JavaScript
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  Npm
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/npm.svg"
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  40%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  
-                  Editor de codigo agil
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  Vim
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/vim.svg"
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  60%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  Empaquetador rápido y moderno para aplicaciones web
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  Vite
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/vite.svg"
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  50%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-          </article>
-          
-          
-          <h3>
-            En proceso
-          </h3>
-          
-          
-          <article>
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  Entorno de ejecución para construir servidores y APIs con JavaScript
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  Node.js
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/node.svg"
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  60%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  Gestor de base de datos SQL
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  MariaDB
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/mariadb.svg"
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  40%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  Diseño de interfaces, prototipado y colaboración UI/UX
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  Penpot
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/figma.svg"
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  20%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-            
-            <div class="Panel PSmall">
-              
-              <div class ="PDesplegable">
-                
-                <p class="TextoDesplegado">
-                  Buenas prácticas para crear sitios inclusivos y utilizables para todos
-                </p>
-                
-              </div>
-              
-              
-              <div class = "PSuperior">
-                <h4>
-                  Accesibilidad
-                </h4>
-              </div>
-              
-              
-              <div class = "PMedio">
-                
-                <img 
-                  src="img/svg/accesibilidad.svg"
-                  alt="ImgDescrip"
-                />
-              </div>
-              
-              
-              <div class = "PInferior">
-                <p>
-                  80%
-                </p>
-                
-              </div>
-              
-            </div>
-            
-            
-          </article>
-          
-        </section>
-        
-      </section>
-      
-      
-      
-      
-      
-      
-      <section class="contacto">
-        
-        
-        <hr/>
-        
-        <h2>
-          <span>H</span>ablemos!
-        </h2>
-        
-        
-        <p class="subTitulo">
-          Estoy disponible para colaborar en proyectos locales, remotos o freelance, y siempre abierto a nuevas ideas y propuestas interesantes.
-        </p>
-        
-        
-        
-        
-        <form id="cantactar" class="boxFormulario">
-          
-          <fieldset>
-            
-            <legend>
-              Dejame un mensaje
-            </legend>
-            
-            
-            
-            
-            
-            
-            <div class="mensajeBox">
-              
-              <textarea id="mensaje" name="mensaje" autocomplete="off" required></textarea>
-              
-              
-              <label for="mensaje" class="imagenCampo">
-                📝
-              </label>
-              
-              <label for="mensaje" class="tituloCampo">
-                Mensaje
-              </label>
-              
-            </div>
-            
-            
-            
-            
-            
-            <div class="nameBox">
-              
-              <input type="text" id="nombre" class="InputNombre" name="nombre" autocomplete="name" required minlength="2"/>
-              
-              
-              <label for="nombre" class="imagenCampo">
-                👤
-              </label>
-              
-              
-              <label for="nombre" class="tituloCampo">
-                Nombre:
-              </label>
-              
-              
-            </div>
-            
-            
-            
-            <div class="emailBox">
-              
-              
-              <input type="email" id="email" class="InputEmail" name="email" autocomplete="email" required/>
-              
-              
-              <label for="email" class="imagenCampo">
-                📧
-              </label>
-              
-              <label for="email" class="tituloCampo">
-                Correo:
-              </label>
-              
-            </div>
-            
-            
-            
-            <div class="boxBtFormulario">
-              
-              <button type="submit" class="BtFormulario">
-                
-                Enviar mensaje
-              </button>
-              
-            </div>
-            
-            
-            
-          </fieldset>
-          
-          
-          <hr/>
-          
-          
-          <div class="linckBox">
-            
-            <div>
-              <a href="mailto:fede.zorrilla@email.com">
-                Prefiero un correo manual ✉️ 
-              </a>
-            </div>
-            
-            
-            <div>
-              
-              <a href="extend/Contacto/#Perfiles" target="_blank" rel="noopener noreferrer">
-                
-                Ver perfil freelace ✅
-              </a>
-              
-            </div>
-            
-            
-            <div>
-              
-              <a href="extend/SobreMi/#Redes" target="_blank" rel="noopener noreferrer">
-              
-                Ver redes 👥
-              </a>
-              
-            </div>
-            
-            
-            
-            <!--ubicacion-->
-            <div class="contact-mapContent">
-              
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30249.287158605897!2d-68.72300794999998!3d18.611831600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sdo!4v1633658107452!5m2!1ses!2sdo" allowfullscreen="" loading="lazy"></iframe>
-              
-            </div>
-          
-            
-            
+            <h2>
+              Sobre Mí
+            </h2>
             
           </div>
           
           
-          <hr/>
-          
-        </form>
-        
-        
-        
-      </section>
-      
-      
-      
-      
-      
-      <section class="TestimoniosBox contacto">
-        
-        <h2>
-          <span>T</span>estimonios
-        </h2>
-        
-        <p>
-          Testimonios de personas con las que he trabajado o colaborado, aprobados previamente.
-        </p>
-        
-        
-        
-        <div class="testimoniosSubBox">
-          
-          
-          <blockquote>
+          <article class="sobremi_description">
+           
             
-            
-            <h3 class="comentario_titular">
+            <div>
               
-              Republica Dominicana
+              <div class="sobremi_foto">
+                <img src="img/federico.png">
+              </div>
               
-            </h3>
-            
-            
-            <p>
-              “Federico es una persona dedicada y detallista. Trabajar con él fue una experiencia fluida y profesional.”
-            </p>
-            
-            
-            <span class="velo"></span>
-            
-            
-            <hr>
-            
-            <div class="author">
-              
-              <img src="img/comentarios/male.png" alt="Foto de Carlos M" class="avatar">
               
               <p>
-                
-                <a href="extend/Comentar" target="_blank">
-                — Carlos M., diseñador gráfico freelance
-                </a>
+                <span>S</span>oy desarrollador <br> de software y creador de productos digitales. Descubrí la programación a los 14 años y, desde entonces, he aprendido construyendo, experimentando y resolviendo problemas reales antes que estudiándolos únicamente desde la teoría.
               </p>
               
             </div>
-            
-          </blockquote>
-          
-          
-          
-          
-          <blockquote>
-            
-            <h3 class="comentario_titular">
-              
-              Republica Dominicana
-            </h3>
             
             
             <p>
-              
-              “Su forma de explicar y estructurar proyectos refleja un dominio real del desarrollo web.”
+              Soy defensor del código limpio y eficiente. No creo en inflar los proyectos con dependencias innecesarias: cuando una herramienta no aporta un valor real, prefiero buscar una solución más simple, incluso construirla desde cero si eso permite ganar rendimiento y control. Para mí, la simplicidad también es calidad.
             </p>
-            
-            <span class="velo"></span>
-            
-            
-            <hr>
-            
-            <div class="author">
-              <img src="img/comentarios/female.png" alt="Foto de Ana L." class="avatar">
-              
-              <p> 
-                
-                <a href="extend/Comentar" target="_blank">
-                — Ana L., estudiante en proceso
-                </a>
-                
-              </p>
-              
-            </div>
-            
-          </blockquote>
-          
-          
-          
-          
-          <blockquote>
-            
-            
-            <h3 class="comentario_titular">
-              
-              ¿Quieres dejar un comentario?
-            </h3>
             
             <p>
-              
-              Si has trabajado conmigo, colaborado en algún proyecto o simplemente te ha servido algo de lo que comparto, puedes dejar tu testimonio:
-              <a href="extend/Comentar" target="_blank">
-                haciendo click aquí.
-              </a>
-              
-              <br>
-              
-              Será revisado antes de ser publicado.
-              
-              
+              Me considero una persona con iniciativa propia. Cuando encuentro un problema, mi primera reacción es construir una solución, no esperar a que alguien más la resuelva. Esa forma de trabajar me llevó a crear proyectos propios y, entre ellos, Ferm, mi propia línea de productos de software para negocios pequeños y en crecimiento.
             </p>
             
-            <span class="velo"></span>
+            <p>
+              Pero, sobre todo, programo para generar valor real: que lo que construyo ayude a alguien a vender más, trabajar mejor o resolver algo que de verdad le importa.
+            </p>
             
+            <p class="ultimo_p">
+              Hoy por hoy, ese valor lo creo con:
+            </p>
             
-            <hr>
-            
-            <div class="author">
-              <img src="img/comentarios/megafono.png" alt="Foto de Ana L." class="avatar">
+            <div class="skills_summary">
               
-              <p> 
-                
-                <a href="extend/Comentar" target="_blank">
-                  Ver otros comentarios sobre Federico Zorrilla
-                </a>
-                
-              </p>
+              <span>PHP</span>
+              <span>JavaScript</span>
+              <span>HTML/CSS</span>
+              <span>SQLite</span>
+              <span>Git</span>
+              <span>Nginx</span>
               
             </div>
             
-          </blockquote>
+          </article>
           
           
+          <article class="sobremi_description">
+            
+            
+            
+            
+            
+            
+      <!-- Bitácora -->
+      <section class="bitacora_section">
+
+        <div class="content_section content_bitacora">
+
+          <div class="box_title">
+
+            <h2>
+              Bitácora
+            </h2>
+
+            <p>
+              Notas sobre programación en mi blog.
+            </p>
+
+          </div>
+
+          <div class="bitacora_box">
+
+            <!-- TODO: reemplaza estos posts de ejemplo por los reales cuando los publiques -->
+            <article class="post_card">
+              <p class="post_fecha">Próximamente</p>
+              <h3 class="post_titulo">
+                <a href="#" target="_blank">¿Puedes vender un producto que no has terminado?</a>
+              </h3>
+              <p class="post_resumen">
+                La historia detrás del Paquete 0.5: de un CSV que parecía la solución más simple, a rediseñar toda la arquitectura de Ferm.
+              </p>
+            </article>
+
+            <article class="post_card">
+              <p class="post_fecha">Próximamente</p>
+              <h3 class="post_titulo">
+                <a href="#" target="_blank">Lo que la ciencia me enseñó sobre depurar código</a>
+              </h3>
+              <p class="post_resumen">
+                Un cruce entre un concepto científico y un problema real de programación.
+              </p>
+            </article>
+
+            <article class="post_card">
+              <p class="post_fecha">Próximamente</p>
+              <h3 class="post_titulo">
+                <a href="#" target="_blank">¿Puedes vender un producto que no has terminado?</a>
+              </h3>
+              <p class="post_resumen">
+                La historia detrás del Paquete 0.5: de un CSV que parecía la solución más simple, a rediseñar toda la arquitectura de Ferm.
+              </p>
+            </article>
+
+            <article class="post_card">
+              <p class="post_fecha">Próximamente</p>
+              <h3 class="post_titulo">
+                <a href="#" target="_blank">Lo que la ciencia me enseñó sobre depurar código</a>
+              </h3>
+              <p class="post_resumen">
+                Un cruce entre un concepto científico y un problema real de programación.
+              </p>
+            </article>
+
+
+          </div>
+
+          <div class="bitacora_link">
+            <a href="https://federicozorrillaoficial.com/extend/Blog" target="_blank">
+              Ver todos los posts
+            </a>
+          </div>
+
+        </div>
+
+      </section>
+            
+            
+            
+            
+            
+          </article>
+          
+         
         </div>
         
+       
       </section>
       
-      
-      
+     
     </main>
     
     
-    
-    
-    
-    
-    <footer id="footer">
-      
-      <div class="subFt1">
-        
-        <h2>
-          Listo para construir algo juntos?
-        </h2>
-        
-      </div>
-      
-      
-      <div class="subB subFt2">
-        
-        <div>
-          
-          Estoy abierto a colaborar en tus grandes ideas y proyectos. Encuentrame en:
-          
-        </div>
-        
-      </div>
-      
-      
+    <!-- Footer -->
+    <footer>
+     
       
       <div class="social-area">
       
@@ -1975,12 +817,6 @@
         </span>
       </a>
       
-      <a href="https://www.facebook.com/FedericoZorrillaOficial" target="_blank">
-        <i class="fab fa-facebook"></i>
-        <span class="seoTrack">
-          Facebook de Federico Zorrilla Oficial
-        </span>
-      </a>
       
       <a href="https://www.instagram.com/federicozorrillaoficial" target="_blank">
         <i class="fab fa-instagram"></i>
@@ -1991,13 +827,6 @@
       
       
       <!-- Freelance -->
-      <a href="https://www.workana.com/freelancer/fda19a1c802247ae57106e9e41fadc4f" target="_blank">
-        <i class="fas fa-briefcase"></i>
-        <span class="seoTrack">
-          Perfil Workana de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
       <a href="https://es.fiverr.com/federico_z_o/" target="_blank">
         <i class="fas fa-handshake"></i>
         <span class="seoTrack">
@@ -2009,20 +838,6 @@
         <i class="fas fa-user-tie"></i>
         <span class="seoTrack">
           Perfil Malt de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
-      <a href="https://www.upwork.com/freelancers/~011039c6e9a40ac308" target="_blank">
-        <i class="fas fa-globe"></i>
-        <span class="seoTrack">
-          Perfil Upwork de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
-      <a href="https://www.getonbrd.com/p/federico-zorrilla-oficial" target="_blank">
-        <i class="fas fa-network-wired"></i>
-        <span class="seoTrack">
-          Perfil GetOnBrd de Federico Zorrilla Oficial
         </span>
       </a>
       
@@ -2093,37 +908,51 @@
       </div>
       
       
+     
     </footer>
     
-    
-    
+   
   </body>
-  
-  
-  <script src="main/correo.js"></script>
-  
-  <script src="main/menu.js"></script>
-  
-  <script src="main/carro.js"></script>
-  
-  <script src="main/insert.js"></script>
-  
   
   
   <script>
     
-    if ('serviceWorker' in navigator) {
+    // Badge de tiempo de carga real de la página (Performance API)
+    window.addEventListener('load', () => {
+      try {
+        const [nav] = performance.getEntriesByType('navigation');
+        const ms = Math.round(nav ? nav.duration : performance.now());
+        const el = document.getElementById('loadTimeBadge');
+        if (el) el.innerHTML = `Esta página cargó en: <span> ${ms} ms </span>`;
+      } catch (e) {
+        // Navegador sin soporte para la Performance API: se omite el badge
+      }
+    });
+    
+    
+    
+    // Contador en vivo de tiendas activas de Ferm
+    (async () => {
+      const el = document.getElementById('tiendasActivas');
+      if (!el) return;
       
-      window.addEventListener('load', () => {
-        
-        navigator.serviceWorker.register('/service-worker.js')
-        .then(reg => console.log('SW registrado', reg.scope))
-        .catch(err => console.error('Error al registrar SW', err));
-        
-      });
-      
-    }
+      try {
+        // TODO: reemplaza esta URL por tu endpoint real (ej. https://ferm.cloud/api/stats)
+        const res = await fetch('https://ferm.cloud/api/stats/tiendas-activas.json');
+        const data = await res.json();
+        el.textContent = `${data.tiendas_activas} tiendas activas ahora mismo`;
+      } catch (e) {
+        // Sin endpoint real todavía: valor de ejemplo — reemplázalo cuando tengas el API real
+        el.textContent = '3 tiendas activas ahora mismo';
+      }
+    })();
     
   </script>
   
+  
+  <script src="js/efectos_constelaciones.js"></script>
+  
+  <script src="js/efectos_estrellas_fugaces.js"></script>
+  
+ 
 </html>
