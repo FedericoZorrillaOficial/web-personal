@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+ <html lang="es">
   <head>
+   
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     
     <title>
       Federico Zorrilla — Software Engineer &amp; Product Engineer
@@ -37,9 +39,9 @@
     
     
     <!-- ojo no completo -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/logo.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.svg">
     
     
     
@@ -106,7 +108,7 @@
 						"@id": "https://federicozorrillaoficial.com#organization",
 						"name": "Federico Zorrilla Oficial",
 						"url": "https://federicozorrillaoficial.com",
-						"logo": "https://federicozorrillaoficial.com/img/logo.png",
+						"logo": "https://federicozorrillaoficial.com/img/logo.svg",
 						"sameAs": [
 							"https://github.com/federicozorrillaoficial",
 							"https://linkedin.com/in/federicozorrilla",
@@ -166,20 +168,20 @@
 
         <div class="accion_box">
 
-          <!-- TODO: reemplaza con tus links reales (GitHub, LinkedIn, YouTube, etc.) -->
-          <a href="#" target="_blank">
+          
+          <a href="https://www.linkedin.com/in/federicozorrilla" target="_blank">
             <img src="img/svg/linkedin.svg">
           </a>
 
-          <a href="#" target="_blank">
+          <a href="https://www.youtube.com/@Federicozorrillaoficial" target="_blank">
             <img src="img/svg/youtube.svg">
           </a>
 
-          <a href="#" target="_blank">
+          <a href="https://github.com/federicozorrillaoficial" target="_blank">
             <img src="img/svg/github.svg">
           </a>
 
-          <a href="extend/blog" target="_blank">
+          <a href="blog" target="_blank">
             <img src="img/svg/blog.svg">
           </a>
 
@@ -219,7 +221,7 @@
             
             <!-- Ferm -->
             <article class="trabajo_card">
-
+              
               <div class="nombre_box">
                 <h3 class="trabajo_nombre">
                   Ferm — Plataforma SaaS de Comercio Digital
@@ -228,27 +230,24 @@
                   Software Engineer &amp; Arquitecto de Producto
                 </p>
               </div>
-
+              
               <div class="descripcion_box">
-
+                
                 <p>
                   <strong>El problema:</strong> los pequeños comercios pierden ventas por falta de automatización, pero las soluciones de software tradicionales son costosas, pesadas y difíciles de escalar en servidores económicos.
                 </p>
-
+                
                 <p>
                   <strong>Mi solución:</strong> inicialmente construida en Laravel y Nuxt.js. Al analizar el impacto de costos y almacenamiento (300MB por tienda), tomé la decisión de remover por completo ambos frameworks y reescribir la plataforma desde cero en PHP vanilla y JavaScript vanilla (ES6+).
                 </p>
-
+                
                 <p>
                   <strong>El resultado:</strong> reduje el peso de cada tienda de 300MB a 4MB reales en disco (98.6% de optimización), lo que permite alojar cientos de tiendas autónomas en un VPS básico con consumo mínimo de CPU y RAM.
                 </p>
-
-                <p class="live_stat" id="tiendasActivas">
-                  Cargando datos en vivo...
-                </p>
-
+                
+               
               </div>
-
+              
               <div class="tags_box">
                 <span>PHP Vanilla</span>
                 <span>JavaScript Nativo</span>
@@ -256,95 +255,103 @@
                 <span>CSS3</span>
                 <span>Git</span>
               </div>
-
+              
               <div class="botones_box">
-                <a href="https://ferm.cloud" target="_blank">Ver en vivo</a>
-                <!-- TODO: enlaza un diagrama/explicación de la arquitectura (código privado, no hay repo público) -->
-                <a href="#" target="_blank">Arquitectura</a>
-                <!-- TODO: enlaza al post de tu bitácora cuando lo escribas -->
-                <a href="#" target="_blank">Leer el caso completo</a>
+                
+                <a href="https://ferm.cloud" target="_blank">
+                  Ver en vivo
+                </a>
+                
+                
+                <a href="/blog?pg=2" target="_blank">
+                  leer acerca del proceso
+                </a>
+                
               </div>
-
+              
             </article>
             
             
             
             <article class="trabajo_card">
-
+              
               <div class="nombre_box">
                 <h3 class="trabajo_nombre">
-                  [Nombre de la tienda] — Implementación E-Commerce
+                  Baby shop — Implementación E-Commerce
                 </h3>
                 <p class="trabajo_rol">
                   Software Engineer
                 </p>
               </div>
-
+              
               <div class="descripcion_box">
-
+                
                 <p>
                   <strong>El problema:</strong> el negocio necesitaba digitalizar su catálogo de forma urgente y procesar pedidos directamente, sin procesos manuales lentos.
                 </p>
-
+                
                 <p>
                   <strong>Mi solución:</strong> desplegué y adapté el núcleo del motor comercial de Ferm (PHP y JavaScript vanilla), creando un panel administrativo a medida y una interfaz optimizada para navegación móvil.
                 </p>
-
+                
                 <p>
                   <strong>El resultado:</strong> lanzamiento exitoso de un producto mínimo viable comercial que permite al negocio recibir órdenes de compra validadas al instante.
                 </p>
-
+                
               </div>
-
+              
               <div class="tags_box">
                 <span>PHP Vanilla</span>
                 <span>JavaScript Nativo</span>
                 <span>HTML5</span>
                 <span>CSS3</span>
               </div>
-
+              
               <div class="botones_box">
-                <!-- TODO: pon el link real de la tienda en vivo -->
-                <a href="#" target="_blank">Ver tienda en vivo</a>
-                <a href="#" target="_blank">Leer el caso completo</a>
+                
+                <a href="http://babyshop.ferm.cloud" target="_blank">
+                  Ver en vivo
+                </a>
+                
+                <a href="blog?pg=2" target="_blank">
+                  leer acerca del proceso
+                </a>
+                
               </div>
-
+              
             </article>
             
             
             
             
             <article class="trabajo_card">
-
+              
               <div class="nombre_box">
                 <h3 class="trabajo_nombre">
-                  Ferm — Plataforma SaaS de Comercio Digital
+                  Gaby crochets
                 </h3>
                 <p class="trabajo_rol">
                   Software Engineer &amp; Arquitecto de Producto
                 </p>
               </div>
-
+              
               <div class="descripcion_box">
-
+                
                 <p>
                   <strong>El problema:</strong> los pequeños comercios pierden ventas por falta de automatización, pero las soluciones de software tradicionales son costosas, pesadas y difíciles de escalar en servidores económicos.
                 </p>
-
+                
                 <p>
                   <strong>Mi solución:</strong> inicialmente construida en Laravel y Nuxt.js. Al analizar el impacto de costos y almacenamiento (300MB por tienda), tomé la decisión de remover por completo ambos frameworks y reescribir la plataforma desde cero en PHP vanilla y JavaScript vanilla (ES6+).
                 </p>
-
+                
                 <p>
                   <strong>El resultado:</strong> reduje el peso de cada tienda de 300MB a 4MB reales en disco (98.6% de optimización), lo que permite alojar cientos de tiendas autónomas en un VPS básico con consumo mínimo de CPU y RAM.
                 </p>
-
-                <p class="live_stat" id="tiendasActivas">
-                  Cargando datos en vivo...
-                </p>
-
+                
+               
               </div>
-
+              
               <div class="tags_box">
                 <span>PHP Vanilla</span>
                 <span>JavaScript Nativo</span>
@@ -352,202 +359,213 @@
                 <span>CSS3</span>
                 <span>Git</span>
               </div>
-
+              
               <div class="botones_box">
-                <a href="https://ferm.cloud" target="_blank">Ver en vivo</a>
-                <!-- TODO: enlaza un diagrama/explicación de la arquitectura (código privado, no hay repo público) -->
-                <a href="#" target="_blank">Arquitectura</a>
-                <!-- TODO: enlaza al post de tu bitácora cuando lo escribas -->
-                <a href="#" target="_blank">Leer el caso completo</a>
+                
+                <a href="http://gabycrochets.ferm.cloud" target="_blank">
+                  Ver en vivo
+                </a>
+                
+                
+                <a href="blog?pg=2" target="_blank">
+                  leer acerca del proceso
+                </a>
+                
               </div>
-
+              
             </article>
             
             
             
             <article class="trabajo_card">
-
+              
               <div class="nombre_box">
                 <h3 class="trabajo_nombre">
-                  [Nombre de la tienda] — Implementación E-Commerce
+                  cute girls — Implementación E-Commerce
                 </h3>
                 <p class="trabajo_rol">
                   Software Engineer
                 </p>
               </div>
-
+              
               <div class="descripcion_box">
-
+                
                 <p>
                   <strong>El problema:</strong> el negocio necesitaba digitalizar su catálogo de forma urgente y procesar pedidos directamente, sin procesos manuales lentos.
                 </p>
-
+                
                 <p>
                   <strong>Mi solución:</strong> desplegué y adapté el núcleo del motor comercial de Ferm (PHP y JavaScript vanilla), creando un panel administrativo a medida y una interfaz optimizada para navegación móvil.
                 </p>
-
+                
                 <p>
                   <strong>El resultado:</strong> lanzamiento exitoso de un producto mínimo viable comercial que permite al negocio recibir órdenes de compra validadas al instante.
                 </p>
-
+                
               </div>
-
+              
               <div class="tags_box">
                 <span>PHP Vanilla</span>
                 <span>JavaScript Nativo</span>
                 <span>HTML5</span>
                 <span>CSS3</span>
               </div>
-
+              
               <div class="botones_box">
-                <!-- TODO: pon el link real de la tienda en vivo -->
-                <a href="#" target="_blank">Ver tienda en vivo</a>
-                <a href="#" target="_blank">Leer el caso completo</a>
+                
+                <a href="http://cutegirls.ferm.cloud" target="_blank">
+                  Ver en vivo
+                </a>
+                
+                <a href="blog?pg=2" target="_blank">
+                  leer acerca del proceso
+                </a>
+                
               </div>
-
+              
             </article>
             
            
           </div>
           
         </div>
-
-
+        
+        
         <!-- Proyectos -->
         <div class="content_section content_trabajos">
-
+          
           <div class="box_title">
-
+            
             <h2>
               Proyectos
             </h2>
-
+            
             <p>
               Otros proyectos que he desarrollado.
             </p>
-
+            
           </div>
-
-
+          
+          
           <div class="trabajos_box">
            
             
             <article class="trabajo_card">
-
+              
               <div class="nombre_box">
                 <h3 class="trabajo_nombre">
                   [Nombre del proyecto] — Herramienta / Script
                 </h3>
               </div>
-
+              
               <div class="descripcion_box">
                 <p>
                   Descripción corta de qué problema resuelve este proyecto y qué lo hace interesante técnicamente.
                 </p>
               </div>
-
+              
               <div class="tags_box">
                 <span>JavaScript</span>
                 <span>HTML5</span>
                 <span>CSS3</span>
               </div>
-
+              
               <div class="botones_box">
                 <a href="#" target="_blank">Ver en vivo</a>
                 <a href="#" target="_blank">Repositorio</a>
               </div>
-
+              
             </article>
             
             
             <article class="trabajo_card">
-
+              
               <div class="nombre_box">
                 <h3 class="trabajo_nombre">
                   [Nombre del proyecto] — Herramienta / Script
                 </h3>
               </div>
-
+              
               <div class="descripcion_box">
                 <p>
                   Descripción corta de qué problema resuelve este proyecto y qué lo hace interesante técnicamente.
                 </p>
               </div>
-
+              
               <div class="tags_box">
                 <span>JavaScript</span>
                 <span>HTML5</span>
                 <span>CSS3</span>
               </div>
-
+              
               <div class="botones_box">
                 <a href="#" target="_blank">Ver en vivo</a>
                 <a href="#" target="_blank">Repositorio</a>
               </div>
-
+              
             </article>
             
             
             <article class="trabajo_card">
-
+              
               <div class="nombre_box">
                 <h3 class="trabajo_nombre">
                   [Nombre del proyecto] — Herramienta / Script
                 </h3>
               </div>
-
+              
               <div class="descripcion_box">
                 <p>
                   Descripción corta de qué problema resuelve este proyecto y qué lo hace interesante técnicamente.
                 </p>
               </div>
-
+              
               <div class="tags_box">
                 <span>JavaScript</span>
                 <span>HTML5</span>
                 <span>CSS3</span>
               </div>
-
+              
               <div class="botones_box">
                 <a href="#" target="_blank">Ver en vivo</a>
                 <a href="#" target="_blank">Repositorio</a>
               </div>
-
+              
             </article>
             
             
             <article class="trabajo_card">
-
+              
               <div class="nombre_box">
                 <h3 class="trabajo_nombre">
                   [Nombre del proyecto] — Herramienta / Script
                 </h3>
               </div>
-
+              
               <div class="descripcion_box">
                 <p>
                   Descripción corta de qué problema resuelve este proyecto y qué lo hace interesante técnicamente.
                 </p>
               </div>
-
+              
               <div class="tags_box">
                 <span>JavaScript</span>
                 <span>HTML5</span>
                 <span>CSS3</span>
               </div>
-
+              
               <div class="botones_box">
                 <a href="#" target="_blank">Ver en vivo</a>
                 <a href="#" target="_blank">Repositorio</a>
               </div>
-
+              
             </article>
             
            
           </div>
-
+          
         </div>
-
+        
       </section>
       
       
@@ -787,69 +805,75 @@
      
       
       <div class="social-area">
-      
-      <!-- Redes sociales -->
-      <a href="https://github.com/FedericoZorrillaOficial" target="_blank">
-        <i class="fab fa-github"></i>
-        <span class="seoTrack">
-          GitHub de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
-      <a href="https://www.youtube.com/@FedericoZorrillaOficial" target="_blank">
-        <i class="fab fa-youtube"></i>
-        <span class="seoTrack">
-          YouTube de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
-      <a href="https://www.linkedin.com/in/federicozorrilla" target="_blank">
-        <i class="fab fa-linkedin"></i>
-        <span class="seoTrack">
-          LinkedIn de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
-      <a href="https://x.com/Federico_Z_O" target="_blank">
-        <i class="fab fa-x-twitter"></i>
-        <span class="seoTrack">
-          Twitter (X) de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
-      
-      <a href="https://www.instagram.com/federicozorrillaoficial" target="_blank">
-        <i class="fab fa-instagram"></i>
-        <span class="seoTrack">
-          Instagram de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
-      
-      <!-- Freelance -->
-      <a href="https://es.fiverr.com/federico_z_o/" target="_blank">
-        <i class="fas fa-handshake"></i>
-        <span class="seoTrack">
-          Perfil Fiverr de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
-      <a href="https://www.malt.es/profile/federicozorrillaoficial" target="_blank">
-        <i class="fas fa-user-tie"></i>
-        <span class="seoTrack">
-          Perfil Malt de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
-      <a href="https://www.freelancermap.com/profile/federico-zorrilla" target="_blank">
-        <i class="fas fa-users"></i>
-        <span class="seoTrack">
-          Perfil Freelancermap de Federico Zorrilla Oficial
-        </span>
-      </a>
-      
-      
-    </div>
+        
+        <!-- Redes sociales -->
+        <a href="https://github.com/FedericoZorrillaOficial" target="_blank">
+          <i class="fab fa-github"></i>
+          <span class="seoTrack">
+            GitHub de Federico Zorrilla Oficial
+          </span>
+        </a>
+        
+        
+        <a href="https://www.youtube.com/@federicozorrillaoficial" target="_blank">
+          
+          <i class="fab fa-youtube"></i>
+          
+          <span class="seoTrack">
+            YouTube de Federico Zorrilla Oficial
+          </span>
+        </a>
+        
+        <a href="https://www.linkedin.com/in/federicozorrilla" target="_blank">
+          <i class="fab fa-linkedin"></i>
+          <span class="seoTrack">
+            LinkedIn de Federico Zorrilla Oficial
+          </span>
+        </a>
+        
+        
+        <a href="https://x.com/Federico_Z_O" target="_blank">
+          <i class="fab fa-x-twitter"></i>
+          <span class="seoTrack">
+            Twitter (X) de Federico Zorrilla Oficial
+          </span>
+        </a>
+        
+        
+        <a href="https://www.instagram.com/federicozorrillaoficial" target="_blank">
+          <i class="fab fa-instagram"></i>
+          <span class="seoTrack">
+            Instagram de Federico Zorrilla Oficial
+          </span>
+        </a>
+        
+        
+        <!-- Freelance -->
+        <a href="https://es.fiverr.com/federico_z_o/" target="_blank">
+          <i class="fas fa-handshake"></i>
+          <span class="seoTrack">
+            Perfil Fiverr de Federico Zorrilla Oficial
+          </span>
+        </a>
+        
+        
+        <a href="https://www.malt.es/profile/federicozorrillaoficial" target="_blank">
+          <i class="fas fa-user-tie"></i>
+          <span class="seoTrack">
+            Perfil Malt de Federico Zorrilla Oficial
+          </span>
+        </a>
+        
+        
+        <a href="https://www.freelancermap.com/profile/federico-zorrilla" target="_blank">
+          <i class="fas fa-users"></i>
+          <span class="seoTrack">
+            Perfil Freelancermap de Federico Zorrilla Oficial
+          </span>
+        </a>
+        
+       
+      </div>
       
       
       
@@ -885,7 +909,7 @@
       <div class="subB subFt4">
         
         <div class="nameBandaFt">
-          <img src="img/logo.svg" alt="F"/> 
+          <img src="img/logo.svg" alt="F"/>
           <a href="#">
             ederico Zorrilla
           </a>
@@ -907,52 +931,38 @@
         
       </div>
       
-      
      
     </footer>
     
+    
+    
+    <script>
+     
+      
+      window.addEventListener('load', () => {
+        
+        const ms = Math.round(performance.now());
+        const el = document.getElementById('loadTimeBadge');
+        
+        if (el) {
+          
+          el.innerHTML = `Esta página cargó en: <span>${ms} ms</span>`;
+          
+        }
+        
+      });
+      
+     
+    </script>
+    
+    
+    
+    <script src="js/efectos_constelaciones.js" defer></script>
+    
+    <script src="js/efectos_estrellas_fugaces.js" defer></script>
+    
    
   </body>
-  
-  
-  <script>
-    
-    // Badge de tiempo de carga real de la página (Performance API)
-    window.addEventListener('load', () => {
-      try {
-        const [nav] = performance.getEntriesByType('navigation');
-        const ms = Math.round(nav ? nav.duration : performance.now());
-        const el = document.getElementById('loadTimeBadge');
-        if (el) el.innerHTML = `Esta página cargó en: <span> ${ms} ms </span>`;
-      } catch (e) {
-        // Navegador sin soporte para la Performance API: se omite el badge
-      }
-    });
-    
-    
-    
-    // Contador en vivo de tiendas activas de Ferm
-    (async () => {
-      const el = document.getElementById('tiendasActivas');
-      if (!el) return;
-      
-      try {
-        // TODO: reemplaza esta URL por tu endpoint real (ej. https://ferm.cloud/api/stats)
-        const res = await fetch('https://ferm.cloud/api/stats/tiendas-activas.json');
-        const data = await res.json();
-        el.textContent = `${data.tiendas_activas} tiendas activas ahora mismo`;
-      } catch (e) {
-        // Sin endpoint real todavía: valor de ejemplo — reemplázalo cuando tengas el API real
-        el.textContent = '3 tiendas activas ahora mismo';
-      }
-    })();
-    
-  </script>
-  
-  
-  <script src="js/efectos_constelaciones.js"></script>
-  
-  <script src="js/efectos_estrellas_fugaces.js"></script>
   
  
 </html>
