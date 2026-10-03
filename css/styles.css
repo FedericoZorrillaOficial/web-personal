@@ -774,19 +774,31 @@ footer .stack_note{
     font-size: 0.9rem;
     display:flex;
     justify-content:center;
-    align-items:flex-end;
+    align-items:center;
     margin:5px 0 40px;
+  }
+  
+  .nameBandaFt div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
   }
   
   
   .nameBandaFt img{
-    max-width:25px;
+    max-width:20px;
   }
   
   
   .nameBandaFt a{
+    margin:0;
+    display:inline-block;
     color: #eee;
     font-weight:600;
+  }
+  
+  .nameBandaFt p{
+    margin:5px 15px;
   }
   
   
