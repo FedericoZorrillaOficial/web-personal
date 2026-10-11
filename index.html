@@ -216,7 +216,7 @@
           </div>
           
           
-          <div class="trabajos_box">
+          <div id="trabajos" class="trabajos_box">
            
             
             <!-- Ferm -->
@@ -447,9 +447,12 @@
               </div>
               
             </article>
+            -->
             
            
           </div>
+          
+          
           
         </div>
         
@@ -471,9 +474,10 @@
           </div>
           
           
-          <div class="trabajos_box">
+          <div id="proyectos" class="trabajos_box">
            
             
+            <!--
             <article class="trabajo_card">
               
               <div class="nombre_box">
@@ -637,11 +641,19 @@
               </div>
               
             </article>
+            -->
             
            
           </div>
           
          
+        </div>
+        
+        
+        <div class="link_vermas_box">
+          <a href="/proyectos">
+            Ver mas...
+          </a>
         </div>
         
       </section>
@@ -767,18 +779,74 @@
             </p>
             
             <p class="ultimo_p">
-              Hoy por hoy, ese valor lo creo con:
+              Hoy por hoy, ese valor lo creo con habilidades como:
             </p>
             
             <div class="skills_summary">
               
-              <span>PHP</span>
-              <span>JavaScript</span>
-              <span>HTML/CSS</span>
-              <span>SQLite</span>
-              <span>Git</span>
+              <h3 class="skill_title">
+                Core
+              </h3>
+              
+              <span>
+                TypeScript
+              </span>
+              
+              <span>
+                Next.js
+              </span>
+              
+              <span>
+                React
+              </span>
+              
+              <span>
+                Laravel
+              </span>
+              
+              <span>
+                APIs REST
+              </span>
+              
+              
+              <h3 class="skill_title">
+                Bases de datos
+              </h3>
+              
+              <span>
+                PostgreSQL
+              </span>
+              
+              <span>
+                MySQL (MariaDB)
+              </span>
+              
+              <span>
+                SQLite
+              </span>
+              
+              
+              <h3 class="skill_title">
+                Infraestructura
+              </h3>
+              
+              <span>Docker</span>
+              
+              <span>CI/CD</span>
+              
+              <span>Linux</span>
+              
               <span>Nginx</span>
               
+              
+              <h3 class="skill_title">
+                Sistemas y rendimiento
+              </h3>
+              
+              <span>Rust</span>
+              <span>C</span>
+              
+             
             </div>
             
           </article>
@@ -801,7 +869,7 @@
             </div>
             
             
-            <section class="bitacora_box">
+            <section id="blog_preview" class="bitacora_box">
              
               
               <article class="post_card">
@@ -1089,10 +1157,24 @@
     </script>
     
     
-    
     <script src="js/efectos_constelaciones.js" defer></script>
     
     <script src="js/efectos_estrellas_fugaces.js" defer></script>
+    
+    <script src="js/blog_preview.js" defer></script>
+    
+    <script src="proyectos/proyect_control.js" defer></script>
+    
+    <script>
+      
+      window.onload = function() {
+        
+        insertarProyectosEn("trabajos", 0, 1, 1);
+        insertarProyectosEn("proyectos", 4, 7, 1);
+        
+      }
+      
+    </script>
     
    
   </body>
