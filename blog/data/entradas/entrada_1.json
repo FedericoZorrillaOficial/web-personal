@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "titulo": "El objetivo",
+  "fecha": "Fecha:2025-05-31",
+  "estado": "Fondos:-70,000",
+  "resumen": "Registro personal de actividades, avances y metas. Aquí comparto en qué estoy trabajando actualmente.",
+  "etiquetas": ["Bitácora", "Proyectos", "Vida personal"],
+  "entrada": "Element.insertAdjacentHTML() analiza una cadena de texto como HTML o XML e inserta los nodos resultantes en el árbol DOM en una posición específica relativa al elemento sobre el que se invoca. <br><br> A diferencia de la propiedad innerHTML, este método no reanaliza ni destruye los elementos ya existentes dentro del contenedor, lo que evita perder los escuchadores de eventos (event listeners) y ofrece un rendimiento mucho más rápido "
+}
